@@ -36,7 +36,6 @@
   - Compile vs runtime
   - Syntax
 - Debugging
-  
 - Typer
   - Strenge
     - String literal
@@ -44,11 +43,15 @@
   - Integer, float, double
   - Array fixed number of values
   - List
-  - Map
-    - mapOf
-- Input
-- Functions
-- Nullability
+- Conditional (if/else)
+  - Equality
+  - When
+- Loops
+  - Ranges
+
+
+
+Skal jeg have om input? Måske
 
 
 

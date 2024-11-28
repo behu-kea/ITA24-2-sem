@@ -1,4 +1,118 @@
-# Exercises
+
+
+## Learning goals
+
+- Exceptions
+- Nullability
+- Functions
+  - Lambda Functions
+
+  - Higher Order-functions
+
+- Map
+  - mapOf
+
+
+
+## Topics
+
+
+
+### Conditional statement
+
+```kotlin
+val age = 18
+if (age >= 25) {
+    println("You are an older adult")
+} else if(age >= 18) {
+    println("You are an adult")
+} else {
+    println("You are a minor.")
+}
+```
+
+
+
+Using `if` as an Expression. Also called a ternary expression
+
+```kotlin
+val max = if (a > b) a else b
+```
+
+
+
+`when` Expression
+
+```kotlin
+val grade = 'A'
+when (grade) {
+    'A' -> println("Excellent")
+    'B' -> println("Good")
+    'C' -> println("Fair")
+    else -> println("Poor")
+}
+```
+
+
+
+### Loops
+
+For Loop
+
+```kotlin
+for (i in 1..5) {
+    println("Iteration $i")
+}
+```
+
+
+
+While loop
+
+```kotlin
+var i = 0
+while (i < 5) {
+    println("Count: $i")
+    i++
+}
+```
+
+
+
+Ranges
+
+```kotlin
+val numbers = 1..10 // Includes 10
+val letters = 'a' until 'z' // Excludes 'z'
+```
+
+
+
+
+
+
+
+### Exceptions
+
+Handle errors using `try`, `catch`, and `finally` blocks.
+
+```kotlin
+try {
+    val result = divideNumbers(10, 0)
+} catch (e: ArithmeticException) {
+    println("Cannot divide by zero.")
+} finally {
+    println("Operation attempted.")
+}
+```
+
+
+
+
+
+
+
+## Exercises
 
 #### Conditional logic & Loop iterations
 
