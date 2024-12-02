@@ -6,11 +6,16 @@
 - Nullability
 - Functions
   - Lambda Functions
-
+    - If last parameter is function. 
+  
   - Higher Order-functions
 
-- Map
-  - mapOf
+
+
+## Preparation
+
+- [Learn Kotlin for Android: Lambda Expressions (Lesson 24)](https://www.youtube.com/watch?v=yx4CY_OUZok)
+- [Learn Kotlin for Android: User Input (Lesson 6)](https://www.youtube.com/watch?v=XkBYH9vLs50)
 
 
 
@@ -18,77 +23,37 @@
 
 
 
-### Conditional statement
+### Function
+
+Remember the return types!
 
 ```kotlin
-val age = 18
-if (age >= 25) {
-    println("You are an older adult")
-} else if(age >= 18) {
-    println("You are an adult")
-} else {
-    println("You are a minor.")
+fun secondLargest(list: MutableList<Int>): Int {
+    list.sort();
+
+    return list.get(list.size - 2);
 }
+
+println(secondLargest(prices))
 ```
 
 
 
-Using `if` as an Expression. Also called a ternary expression
+#### Lambda function
 
 ```kotlin
-val max = if (a > b) a else b
-```
-
-
-
-`when` Expression
-
-```kotlin
-val grade = 'A'
-when (grade) {
-    'A' -> println("Excellent")
-    'B' -> println("Good")
-    'C' -> println("Fair")
-    else -> println("Poor")
+val max2 = {a:Int, b:Int ->
+     if(a > b) {
+         a // This is implicitly returned
+     } else {
+         b // This is implicitly returned
+     }
 }
+println(max2(33,4)) // 33
+
+val hundredLarger = {a:Int -> a + 100 }
+println(hundredLarger(10)) // 110
 ```
-
-
-
-### Loops
-
-For Loop
-
-```kotlin
-for (i in 1..5) {
-    println("Iteration $i")
-}
-```
-
-
-
-While loop
-
-```kotlin
-var i = 0
-while (i < 5) {
-    println("Count: $i")
-    i++
-}
-```
-
-
-
-Ranges
-
-```kotlin
-val numbers = 1..10 // Includes 10
-val letters = 'a' until 'z' // Excludes 'z'
-```
-
-
-
-
 
 
 
@@ -108,32 +73,47 @@ try {
 
 
 
-
-
-
-
 ## Exercises
 
-#### Conditional logic & Loop iterations
 
-**A)**
 
-- Write a function that receives 3 numbers as arguments and returns the largest of the numbers
+### Opgave 2 - Level 1
 
-**B)**
+Write variables to represent a rectangle:
 
-- Write a program that takes a String input from the user and outputs whether it is a [palindrome](https://da.wikipedia.org/wiki/Palindrom) or not
-  - The string should not contain whitespaces
+- Height of 8.5
+- Width of 5.5
 
-**C)**
+Create a function that computes the area and the perimeter of the rectangle and print the results
 
-- Write a function that given 3 int values, a b c, return their sum.
-  - If one of the values is the same as another of the values, it does not count towards the sum.
-- The numbers are provided by the user
 
-**E)**
 
-- Write a function that recieves 2 int values greater than 0. Return whichever value is nearest to 21 without going over. Return 0 if they both go over.
+### Opgave 7 - level 2
+
+Write a Kotlin function that accepts two integers from the user and then prints 
+
+- the sum
+- the difference
+- the product
+- the average
+- the distance  (the difference between integer, can only be positive)
+- the maximum (the larger of the two  integers)
+- the minimum (smaller of the two integers)
+
+Here is an example:
+
+```
+Input 1st integer: 25
+Input 2nd integer: 5
+Expected Output:
+Sum of two integers: 30
+Difference of two integers: 20
+Product of two integers: 125
+Average of two integers: 15.00
+Distance of two integers: 20
+Max integer: 25
+Min integer: 5
+```
 
 
 
@@ -142,6 +122,8 @@ try {
 **A)**
 
 - Write a function that uses the filter function to filter all numbers of a list greater than 10
+
+
 
 **B)**
 

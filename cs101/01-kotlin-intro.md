@@ -2,19 +2,15 @@
 
 
 
-## Content
-
-
-
-### Course outline
+## Course outline
 
 - CS 101
-  - Weekly handins
+  - Weekly handins first 3 weeks
 - Android with Kotlin
 - 1 project
   1. large 11 week project with 2 handins (iterations) relevant for you
      - You have to find your own problem/project
-- Trivselssamtaler efter 5 uger
+- Test i uge 6. Trivselssamtaler efter 5 uger
 
 
 
@@ -34,6 +30,8 @@
 - Kotlin
   
   - Compile vs runtime
+  - Interpretation vs compilation Tjek NIFR slides
+  - JIT
   - Syntax
 - Debugging
 - Typer
@@ -51,13 +49,66 @@
 
 
 
-Skal jeg have om input? Måske
+<!--
+
+## Peer instruction
+
+
+
+### Question 1
+
+What will the following code output?
+
+```kotlin
+val str = "Kotlin"
+val length = str.length
+println("The length of the string is: $length")
+```
+
+1. The length of the string is: 6
+2. The length of the string is: Kotlin
+3. The length of the string is: 7
+4. Syntax error
+5. None of the above
+
+
+
+### Question 2
+
+What will this loop print?
+
+```kotlin
+for (i in 1..5) {
+    if (i == 3) break
+    println(i)
+}
+
+```
+
+1. 1 2 3 4 5
+2. 1 2 3
+3. 1 2
+4. 3
+5. None of the above
+
+
+
+### Question 3
+
+```kotlin
+val list = listOf(1, 2, 3, 4, 5)
+println(list[3])
+```
+
+
+
+-->
 
 
 
 ## Benjamin koder
 
-Create a function named `transformArray` that takes an array of integers as input. The function should iterate through the array and apply the following transformations:
+Create som code that defines an array of integers. The code should iterate through the array and apply the following transformations:
 
 - If an element is even, divide it by 2.
 - If an element is odd, multiply it by 3 and add 1.
@@ -68,7 +119,7 @@ transformed_array = transformArray(original_array)
 print(transformed_array) // [4, 1, 10, 2, 16]
 ```
 
-It should return the transformed array
+It should log the transformed array
 
 Cover nullability og debugging
 
@@ -79,6 +130,7 @@ Cover nullability og debugging
 - [Installer Android Studio](https://developer.android.com/studio)
 - [Kotlin in 100 Seconds](https://www.youtube.com/watch?v=xT8oP0wy-A0)
 - [Learn Kotlin in 12 Minutes](https://www.youtube.com/watch?v=iYrgWO2oibY)
+- [Learn Kotlin for Android: When (Lesson 8)](https://www.youtube.com/watch?v=dollprkCDnk)
 - [https://kotlinlang.org/docs/basic-syntax.html](https://kotlinlang.org/docs/basic-syntax.html) Optional
 
 
@@ -138,10 +190,6 @@ For some type we can just write the value directly. Like fx a string `val name: 
 
 
 
-WRITE MORE HERE!!!
-
-
-
 ### `List`
 
 A `List` is like an array in javascript. 
@@ -172,46 +220,72 @@ println(prices)
 
 
 
-### `Map`
+### Conditional statement
 
 ```kotlin
-val cars:MutableMap<String, String> = mutableMapOf("asd" to "23");
-cars["hej"] = "asd";
-cars.get("hej")
+val age = 18
+if (age >= 25) {
+    println("You are an older adult")
+} else if(age >= 18) {
+    println("You are an adult")
+} else {
+    println("You are a minor.")
+}
 ```
 
 
 
-### Function
-
-Remember the return types!
+Using `if` as an Expression. Also called a ternary expression
 
 ```kotlin
-fun secondLargest(list: MutableList<Int>): Int {
-    list.sort();
-
-    return list.get(list.size - 2);
-}
-
-println(secondLargest(prices))
+val max = if (a > b) a else b
 ```
 
 
 
-#### Lambda function
+`when` Expression
 
 ```kotlin
-val max2 = {a:Int, b:Int ->
-     if(a > b) {
-         a // This is implicitly returned
-     } else {
-         b // This is implicitly returned
-     }
+val grade = 'A'
+when (grade) {
+    'A' -> println("Excellent")
+    'B' -> println("Good")
+    'C' -> println("Fair")
+    else -> println("Poor")
 }
-println(max2(33,4)) // 33
+```
 
-val hundredLarger = {a:Int -> a + 100 }
-println(hundredLarger(10)) // 110
+
+
+### Loops
+
+For Loop
+
+```kotlin
+for (i in 1..5) {
+    println("Iteration $i")
+}
+```
+
+
+
+While loop
+
+```kotlin
+var i = 0
+while (i < 5) {
+    println("Count: $i")
+    i++
+}
+```
+
+
+
+Ranges
+
+```kotlin
+val numbers = 1..10 // Includes 10
+val letters = 'a' until 'z' // Excludes 'z'
 ```
 
 
@@ -235,17 +309,6 @@ Do these steps one step at a time! Think about what type of data should be store
 
 ### Opgave 2 - Level 1
 
-Write variables to represent a rectangle:
-
-- Height of 8.5
-- Width of 5.5
-
-Create a function that computes the area and the perimeter of the rectangle and print the results
-
-
-
-### Opgave 3 - Level 1
-
 - Convert a string to uppercase
 - Get the character on index 3
 - Print the index of a character in the string
@@ -258,60 +321,57 @@ Create a function that computes the area and the perimeter of the rectangle and 
 
 
 
-### Opgave 4 - level 1
+### Opgave 3 - level 1
 
-Create a `Map` that contains the numberplate of a car and that cars color
-
-
-
-### Opgave 5 - level 2
-
-Create a `List`. Add some prices to the `List`
+Create a program that calculates and prints the sum of all even numbers between 1 and 50 using a `for` loop.
 
 
 
-Now create a function that takes a `List` of integers and returns the second largest integer in that array
+### Opgave 4 - level 2
+
+Create a `List`. Add some prices to the `List`. Now find the second largest integer in that array
 
 
 
-Use the function to find the second largest integer of the `List` created above
+### Opgave 5 - level 1
+
+Assign three variables `sideA`, `sideB`, and `sideC` representing the lengths of a triangle's sides. Use conditionals to determine and print the type of triangle:
+
+- If all sides are equal, print `"Equilateral triangle"`.
+- If exactly two sides are equal, print `"Isosceles triangle"`.
+- If all sides are different, print `"Scalene triangle"`.
+- If the sides cannot form a valid triangle (the sum of any two sides must be greater than the third), print `"Not a valid triangle"`.
+
+
+
+### Weekend or Weekday
+
+Create a program that takes an integer (1-7) representing a day of the week (1 for Monday, 7 for Sunday) and prints whether it's a weekday or weekend using a `when` expression.
+
+
+
+### Exercise 5 - level 2
+
+Write a program that loops through the numbers from 1 to 100. For each number, use conditionals to check the following:
+
+- If the number is a perfect square **and** even, print the number and its square root.
+- If not, continue to the next number without printing.
+
+*A perfect square is an integer that is the square of an integer (e.g., 16 is a perfect square because it is 4 squared).*
 
 
 
 ### Opgave 6 - level 2
 
-Create a function that prompts the user to provide a number, computes the half of the number and prints the result with a friendly message
+Simulate the growth of a population starting with 1,000 individuals. Each year, the population increases by 5%. Use a loop to calculate and print the population at the end of each year for up to 10 years. If at any point the population exceeds 1,500, print `"Population has exceeded 1,500"` and stop the simulation.
+
+
+
+### Opgave 6 - level 2
+
+Write some code that prompts the user to provide a number, computes the half of the number and prints the result with a friendly message
 
 *Research how inputs work in Kotlin*
-
-
-
-### Opgave 7 - level 2
-
-Write a Kotlin function that accepts two integers from the user and then prints 
-
-- the sum
-- the difference
-- the product
-- the average
-- the distance  (the difference between integer, can only be positive)
-- the maximum (the larger of the two  integers)
-- the minimum (smaller of the two integers)
-
-Here is an example:
-
-```
-Input 1st integer: 25
-Input 2nd integer: 5
-Expected Output:
-Sum of two integers: 30
-Difference of two integers: 20
-Product of two integers: 125
-Average of two integers: 15.00
-Distance of two integers: 20
-Max integer: 25
-Min integer: 5
-```
 
 
 
