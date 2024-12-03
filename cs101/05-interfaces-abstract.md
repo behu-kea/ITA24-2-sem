@@ -229,6 +229,12 @@ fun main() {
 
 
 
+### Pre-exercise
+
+Using the code from your handed in assignment. Present the code for your study mate. Talk about the code technically. What is it doing and why you didi it that way. 
+
+
+
 ### Computer
 
 Create two classes `Mobile` and `RaspberryPi` that implements this interface:

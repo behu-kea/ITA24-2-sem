@@ -6,7 +6,7 @@
 - Nullability
 - Functions
   - Lambda Functions
-    
+  
 - Higher Order-functions
   - Trailing lambda
 
@@ -297,7 +297,20 @@ Define a function called `greetPerson`.
 
 
 
-### Opgave 6 - level 3
+### Opgave 7 - Teachers students
+
+Duration: 30 min
+
+In the following exercise one group will randomly be selected to be teachers and the other group will be students
+
+In groups of two people prepare a small 5 minute lecture. The lecture should explain the topic of **trailing lambda** any way you like. That might be with a small slideshow or it might be with code, thats up to you. 
+
+- As teachers present the 5 minute lecture
+- As students ask good interesting questions
+
+
+
+### Opgave 8 - level 3
 
 Write a dice function that [generates](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/) and returns a random number between 1-6.
 

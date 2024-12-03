@@ -24,6 +24,7 @@
     - Var, val
   - Constructor
   - Data vs behaviour
+- Classes are blueprints
 
 
 
@@ -300,6 +301,12 @@ In this example the value of `this` is equal to the object `skippy`. That means 
 
 
 ## Exercises
+
+
+
+### Pre-exercise
+
+Using the code from your handed in assignment. Present the code for your study mate. Talk about the code technically. What is it doing and why you didi it that way. 
 
 
 
