@@ -307,13 +307,13 @@ https://developer.android.com/codelabs/basic-android-kotlin-compose-kotlin-funda
 
 ### Last 8 - Level 2
 
-https://www.learncs.online/practice/kotlin/last-8/challen@illinois.edu?returnTo=encapsulation
+[https://www.learncs.online/testtesting/kotlin/last-8/challen@illinois.edu](https://www.learncs.online/testtesting/kotlin/last-8/challen@illinois.edu)
 
 
 
 ### Inheritance
 
-https://www.learncs.online/practice/kotlin/simple-person-inheritance/challen@illinois.edu
+[https://www.learncs.online/testtesting/kotlin/simple-person-inheritance/challen@illinois.edu](https://www.learncs.online/testtesting/kotlin/simple-person-inheritance/challen@illinois.edu)
 
 
 

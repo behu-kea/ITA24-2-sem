@@ -5,10 +5,10 @@
 ## Learning goals
 
 - Properties
-- Visibility Modifiers
+- Access Modifiers
 - Inheritance
   - Override
-- 4 pillars. 
+- 4 pillars
 
 
 
@@ -23,6 +23,81 @@
 - [Fundamental Concepts of Object Oriented Programming](https://www.youtube.com/watch?v=m_MQYyJpIjg)
 - [Learn Kotlin for Android: Inheritance (Lesson 17)](https://www.youtube.com/watch?v=33DNMPOFvuA)
 - [Learn Kotlin for Android: Getters & Setters ( Lesson 16)](https://www.youtube.com/watch?v=tOCXISsfgUg)
+
+
+
+<!--
+
+## Peer instruction
+
+### Question 1
+
+```kotlin
+open class Base {
+    open fun showMessage() {
+        println("Base Message")
+    }
+}
+
+class Derived : Base() {
+    override fun showMessage() {
+        println("Derived Message")
+    }
+}
+
+fun main() {
+    val obj: Base = Derived()
+    obj.showMessage()
+}
+
+```
+
+1. `Base Message`
+2. `Derived Message`
+3. Compilation error due to improper override
+4. Runtime exception
+5. None of the above
+
+
+
+### Question 2
+
+What access modifier is used to ensure a property can be accessed only within the same file?
+
+1. `private`
+2. `internal`
+3. `protected`
+4. `file`
+5. None of the above
+
+
+
+### Question 3
+
+What will the following code print?
+
+```kotlin
+class User {
+    var name: String = "Guest"
+        set(value) {
+            field = value.uppercase()
+        }
+}
+
+fun main() {
+    val user = User()
+    user.name = "john"
+    println(user.name)
+}
+```
+
+1. `Guest`
+2. `john`
+3. `JOHN`
+4. Compilation error due to invalid setter
+5. None of the above
+
+-->
 
 
 
