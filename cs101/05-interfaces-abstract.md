@@ -225,6 +225,69 @@ fun main() {
 
 
 
+### When to Choose What: Class, Interface, Inheritance, or Abstract (from ChatGPT but vetted by a true human)
+
+Choosing between classes, interfaces, inheritance, and abstract classes depends on your project's requirements and how you want to structure your code. Here’s a breakdown to guide your decision:
+
+
+
+#### Use a Class:
+
+- When you need to define a blueprint for creating objects.
+- Use it for straightforward cases where you don't need special rules for implementation.
+- Use classes when inheritance or contract enforcement isn't required.
+
+**Example**:
+
+- Representing simple entities like `User`, `Car`, or `Book`.
+
+
+
+#### Use an Interface:
+
+- When you need to enforce that certain methods and properties must be implemented by a class.
+- Use it when you expect multiple, unrelated classes to share common behavior.
+- Ideal when your class needs to implement behavior from multiple sources (Kotlin supports multiple interfaces).
+
+**Good for**:
+
+- Defining behaviors such as `Drivable`, `Comparable`, or `Renderable`.
+- Example: A `Product` interface can be implemented by `Book`, `Television`, and `Gadget` classes.
+
+
+
+#### Use Inheritance:
+
+- When you need to create a hierarchical relationship between classes.
+- Use it to share functionality or properties among classes.
+- Ideal when there’s a clear "is-a" relationship (e.g., a `Car` is a `Vehicle`).
+
+**Be cautious**:
+
+- Kotlin supports single inheritance, so you can inherit only from one class.
+- Overusing inheritance can lead to tightly coupled code.
+
+**Example**:
+
+- A `Vehicle` class can be inherited by `Car` and `Bike`.
+
+
+
+#### Use an Abstract Class:
+
+- When you need to create a base class that cannot be instantiated.
+- Use it when you want to provide some shared functionality while enforcing subclasses to implement specific details.
+- Abstract classes are useful for defining templates with partially implemented methods
+
+
+
+**Good for**:
+
+- Modeling general concepts like `Animal`, `Shape`, or `Vehicle` that should not exist on their own.
+- Example: An `Animal` abstract class might define an abstract `makeSound()` method and a concrete method `move()`.
+
+
+
 ## Exercises
 
 
@@ -363,11 +426,15 @@ Create a Kotlin interface named `HipHopPlaylist` that includes the following met
 4. Implement all the methods in `MyPlaylist` class.
 5. In the main function, create an instance of `MyPlaylist` and demonstrate adding, removing, and listing songs.
 
+
+
 #### Sample Output:
 
 - Adding songs like "Lose Yourself" by Eminem, "Juicy" by Notorious B.I.G.
 - Display the current playlist.
 - Remove a song and show the updated playlist.
+
+
 
 #### Challenge:
 
