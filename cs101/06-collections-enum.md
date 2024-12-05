@@ -1,36 +1,72 @@
-# Exercises
-
-### Arrays, HashMap & Set
-
-**A)**
-
-- Write a function that takes an array of strings and returns the **<u>indices</u> NOT the number** of the top 2 longest strings of the array.
-
-  - You can assume the array has at least 2 elements.
-
-  - Hint: Could the return type be a data structure?
-
-    
-
-```kotlin
-//Printing every index number in an array
-  for (i in ints.indices){
-      println(i);
-  }
-```
+# Collections framework, ADT, Datastrukturer & `ENUM`
 
 
 
-To solve the following exercises you need to understand how to [read text files](https://www.baeldung.com/kotlin/read-file) 
+## Learning goals
 
-**B)**
+- Collections
+- Ordering: Comparable / CompareTo
+- Abstract Data Types (ADT):
+  - List
+  - Set
+  - Map
+- ENUM
+
+
+
+## Preparation
+
+- [Kotlin Collections](https://youtu.be/F8jj7e-_jFA?si=43_nhN_D7tYwtDUQ)
+- [HashMap](https://youtu.be/vJvqYFKXo5E?si=kNQQlY7rDit8BK6h)
+- [Comparable](https://www.baeldung.com/kotlin/comparable)
+- [ENUM classes](https://kotlinlang.org/docs/enum-classes.html)
+
+
+
+## Opgaver
+
+
+
+### Opgave 1
+
+**Case 1: Sorted City Names for a Travel Agency**
+
+**Scenario:** A travel agency wants to maintain a list of all cities they offer tours to. The system must:
+
+- Ensure city names are stored in alphabetical order.
+- Automatically place new cities in the correct order when added.
+
+
+
+**Case 2: Managing a Playlist**
+
+**Scenario:** A music streaming app needs to manage a user’s playlist. The playlist:
+
+- Should allow duplicate songs (e.g., a user can add the same song multiple times).
+- Must maintain the order of the songs as added.
+- Needs efficient random access to any song.
+
+
+
+**Case 3: Employee Directory**
+
+**Scenario:** A company wants to store employee records where:
+
+- Each employee has a unique ID (key) and associated details like name and department (value).
+- Lookups by ID need to be fast.
+- Order of entry is irrelevant.
+
+
+
+### Opagve 2 - level 1
 
 - Write a basic dictionary using a HashMap.
 - The keys will represent words and the values will be descriptions of the words
+- Now add some words to the dictionary with a description. 
 
 
 
-**C)**
+### Opgave 3 - level 2
 
 1. Create a HashMap named `spaceLog` to store entries in an astronaut's log. [The key will be the date of the entry](https://www.baeldung.com/kotlin/current-date-time), and the value will be a description of the events that occurred on that date (String).
 2. Implement the following functions for the space log:
@@ -46,7 +82,9 @@ To solve the following exercises you need to understand how to [read text files]
 
 
 
-**D)**
+### Opgave 4 - level 2
+
+To solve the following exercises you need to understand how to [read text files](https://www.baeldung.com/kotlin/read-file)
 
 - We have users from 3 different platforms ([users-1, users-2, users-3](https://kea-fronter.itslearning.com/Resources?FolderID=1235819&PlayPlanDialogView=False&ReloadTree=False) 
 - We want to know:
@@ -55,21 +93,9 @@ To solve the following exercises you need to understand how to [read text files]
 
 
 
-**Advanced (Optional)**
+### Opgave 5 - Comparable
 
-We want to analyse [The republic by Plato.](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1235821)
-
-- How many times does each word occur?
-  - Plato, PlAtO and plato should all count as the same word
-- What are the top 10 words that are not in the top 10 of [conjuctions](https://www.grammar-monster.com/lists/list_of_conjunctions.htm)
-
-
-
-### Comparable
-
-**A)**
-
-- Write a class student
+- Write a class `Student`
 - A student has the following fields:
   - Name
   - Email
@@ -81,7 +107,7 @@ We want to analyse [The republic by Plato.](https://kea-fronter.itslearning.com/
 
 
 
-**B)**
+### Opgave 6 - level 2
 
 1. Create a data class named `Book` with the following properties:
    - `title`: The title of the book.
@@ -100,7 +126,17 @@ We want to analyse [The republic by Plato.](https://kea-fronter.itslearning.com/
 
 
 
-**D)**
+### Opgave 7 - Optional
+
+We want to analyse [The republic by Plato.](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1235821)
+
+- How many times does each word occur?
+  - Plato, PlAtO and plato should all count as the same word
+- What are the top 10 words that are not in the top 10 of [conjuctions](https://www.grammar-monster.com/lists/list_of_conjunctions.htm)
+
+
+
+### Opgave 8 - level 3
 
 - Write a method called `smallWordFilter` that, given a non-`null` `String` (not list!) containing words separated by single spaces (`" "`), returns all the words in the original `String` that are 3 characters or shorter in the same order in which they appeared in the original `String`, as a `List<String>`.
 
@@ -110,7 +146,9 @@ From: https://www.learncs.online/practice/kotlin/small-word-filter-with-list/cha
 
 Hint: https://kotlinandroid.org/kotlin/kotlin-split-string/
 
-**Advanced (Optional)**
+
+
+### Opgave 9 - level 3
 
 (This question was asked by microsoft for a coding interview)
 

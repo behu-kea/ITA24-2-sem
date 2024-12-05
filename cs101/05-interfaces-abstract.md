@@ -406,9 +406,13 @@ The exercise should fit the students interests. Here are the student interests: 
 
 Implement a Kotlin interface to manage a hip-hop music playlist.
 
+
+
 #### Background:
 
 Interfaces in Kotlin are used to define a contract that a class needs to conform to, without providing the actual implementation of the methods. It's a way to achieve abstraction and is essential in designing robust and scalable software systems.
+
+
 
 #### Task:
 
@@ -417,6 +421,8 @@ Create a Kotlin interface named `HipHopPlaylist` that includes the following met
 1. `addSong(songName: String, artist: String)`: Adds a new song to the playlist.
 2. `removeSong(songName: String)`: Removes a song from the playlist.
 3. `getCurrentSongs()`: Returns a list of current songs in the playlist.
+
+
 
 #### Implementation:
 
