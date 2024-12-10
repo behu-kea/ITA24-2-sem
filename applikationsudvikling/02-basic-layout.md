@@ -5,10 +5,9 @@
 ## Overview
 
 - Peer instruction
+- Android Studio
+- Native App vs web site vs Webapp
 - Component based UI
-
-- Kom på fredag. Det er en vildt vigtig gang!
-
 - Benjamin recreates a layout from a Shape application
   - Component based thinking
 
@@ -16,11 +15,15 @@
 
 ## Learning goals
 
+- Working in Android Studio
 - `@Composable`
   - `@Preview`
 - `Modifier`
-- `Column`
-- `Button`
+- Layout
+  - `Column` & `Row`
+  - `Button`
+  - `Text`
+
 
 
 
@@ -29,6 +32,26 @@
 - Go through [this guide](https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-3). The two following elements are important, the rest is optional
   - Intro to Jetpack Compose (video)
   - Build a simple app with text composables (Codelab)
+
+
+
+### Installing a virtual device
+
+![image-20240229100510038](assets/image-20240229100510038.png)
+
+<img src="assets/image-20240229100534525.png" alt="image-20240229100534525" style="zoom:50%;" />
+
+
+
+![image-20240229100613906](assets/image-20240229100613906.png)
+
+**Tiramisu > Next** 
+
+<img src="assets/image-20240229100722228.png" alt="image-20240229100722228" style="zoom:100%;" />
+
+**Default configuration > Finish**
+
+![image-20240229100746790](assets/image-20240229100746790.png)
 
 
 
@@ -51,7 +74,7 @@ fun SimpleComposable() {
 
 ### `@Preview`
 
-
+Here we can preview the app before launching it in the simulator
 
 
 
@@ -79,10 +102,6 @@ Text(
 
 )
 ```
-
-
-
-
 
 
 

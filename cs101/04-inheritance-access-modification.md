@@ -9,6 +9,7 @@
 - Inheritance
   - Override
 - 4 pillars
+- Interface
 
 
 
@@ -23,6 +24,7 @@
 - [Fundamental Concepts of Object Oriented Programming](https://www.youtube.com/watch?v=m_MQYyJpIjg)
 - [Learn Kotlin for Android: Inheritance (Lesson 17)](https://www.youtube.com/watch?v=33DNMPOFvuA)
 - [Learn Kotlin for Android: Getters & Setters ( Lesson 16)](https://www.youtube.com/watch?v=tOCXISsfgUg)
+- [Learn Kotlin for Android: Interfaces (Lesson 20)](https://www.youtube.com/watch?v=RctW18zpgec)
 
 
 
@@ -101,6 +103,76 @@ fun main() {
 
 
 
+## Topics
+
+
+
+### Interface
+
+An interface works a lot like a contract or a set of rules. In an interface we define attributes and functions a class should have to implement that specific interface. 
+
+Lets get concrete:
+
+This Interface defines what it is like to be a `Product`. That means that classes implementing this interface **has to have** 
+
+- An attribute called `name` which is a `String`
+- An attribute called `price` which is an `Int`
+- An attribute called `name` which is an `Int`
+- An function called `printProductDetails` 
+
+```kotlin
+interface Product {
+    val name: String;
+    val price: Int;
+  	val id: Int;
+    fun printProductDetails();
+}
+```
+
+Here is how an `interface` gets implemented by a class
+
+```kotlin
+class Television: Product {
+		override val name: String,
+    override val price: Int,
+    override val id: Int
+) : Product {
+    override fun printProductDetails() {
+				println("${this.name} is an amazing television");
+    }
+}
+```
+
+Let's initialise a television
+
+```kotlin
+val samsungTelevision: Television = Television("Samsung TV", 8000, 123456789);
+```
+
+We use the `override` keyword because we are overwriting a property from the interface we are implementing
+
+We can even add functionality inside of the interface:
+
+```kotlin
+interface Computer{
+    val name: String;
+    val price: Int;
+    val location: Map<String, Double>;
+
+    fun printLocation() {
+        println("${this.name} is an amazing television");
+    };
+}
+```
+
+Now we dont need to override the `printLocation` method because it has been defined
+
+A class can inherit from only one class but can implement mutiple interfaces
+
+
+
+
+
 ## Opgaver
 
 
@@ -156,7 +228,24 @@ Create a class named `Student` to represent student information.  Include proper
 
 
 
-### Opgave 5 - level 3
+### Opgave 5 - level 2
+
+Create two classes `Mobile` and `RaspberryPi` that implements this interface:
+
+```java
+public interface Computer {
+    val name: String;
+    val price: Int;
+  
+  	fun printNameAndPrice();
+}
+```
+
+Create two `Mobile` and two `RaspberryPi` objects
+
+
+
+### Opgave 6 - level 3
 
 Create a class `Person`. A person has a cpr number and name
 

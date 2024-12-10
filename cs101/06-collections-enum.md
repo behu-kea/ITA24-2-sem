@@ -2,6 +2,12 @@
 
 
 
+### Overview
+
+- Go through slides
+
+
+
 ## Learning goals
 
 - Collections
@@ -10,7 +16,6 @@
   - List
   - Set
   - Map
-- ENUM
 
 
 
@@ -19,7 +24,6 @@
 - [Kotlin Collections](https://youtu.be/F8jj7e-_jFA?si=43_nhN_D7tYwtDUQ)
 - [HashMap](https://youtu.be/vJvqYFKXo5E?si=kNQQlY7rDit8BK6h)
 - [Comparable](https://www.baeldung.com/kotlin/comparable)
-- [ENUM classes](https://kotlinlang.org/docs/enum-classes.html)
 
 
 

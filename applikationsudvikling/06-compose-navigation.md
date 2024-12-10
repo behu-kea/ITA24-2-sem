@@ -19,7 +19,6 @@
 ## Overview
 
 - Should video title be `val` or `var` [https://www.youtube.com/watch?v=d0d9nsTLaKo](https://www.youtube.com/watch?v=d0d9nsTLaKo)
-- Husk aflevering søndag!
 - Create presentation
 - Small guided meditation through Medito
   - Quick intro to benefits from meditating
@@ -47,8 +46,6 @@
 
 - [Send Arguments between Screens | Navigation in Jetpack Compose (the first 10 min are most important)](https://youtu.be/doGsRC2J1Fc?si=Ccq9Op22ElPBA9EZ)
 - [Nested Navigation | Jetpack Compose](https://youtu.be/2sKnGloDJf0?si=snKVgK22jYYLKVNg)
-
-
 
 - [https://developer.android.com/jetpack/compose/navigation](https://developer.android.com/jetpack/compose/navigation) - optional
 

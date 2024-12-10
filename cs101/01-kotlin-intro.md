@@ -11,6 +11,11 @@
   1. large 11 week project with 2 handins (iterations) relevant for you
      - You have to find your own problem/project
 - Test i uge 6. Trivselssamtaler efter 5 uger
+- Ansvaret for læring er større
+  - Der er større forberedelser, især i Android. Ikke kun video, men også noget kode i skal lave inden. Typisk gennem en guide
+  - Nogle gange skal i selv finde forberedelse
+  - I Android kommer jeg til at kode nogle apps for jer. Så det er vigtigere at komme til selve klassen
+
 
 
 

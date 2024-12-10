@@ -6,7 +6,7 @@
 
 ### First repeating element
 
-Given a list of integers arr[] The task is to find the index of first repeating element in it i.e. the element that occurs more than once and whose index of the first occurrence is the smallest. 
+Given a list of integers arr[] The task is to find the index of first repeating element in it i.e. the element that occurs more than once
 
 In this exercise you should use a index-based linear data structure such as an array.
 
@@ -49,6 +49,16 @@ Output: [1,2]
 Input: nums = [3,3], target = 6
 Output: [0,1]
 ```
+
+
+
+<!--
+
+Two sum quicker. We save the number as a key in an object. 
+
+https://dev.to/shavonharrisdev/a-more-straightforward-guide-to-solving-two-sum-2gbi
+
+-->
 
 
 

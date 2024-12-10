@@ -10,7 +10,6 @@
   - logd
   - Mind mig om at uploade kode jeg skriver i klassen, jeg er dårlig til at huske det!
 - Work on app for today
-- Midtvejssamtaler
 - Break at 10:00
 - 11:30 presenation of my solution
 
