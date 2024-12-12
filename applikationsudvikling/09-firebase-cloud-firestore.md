@@ -60,8 +60,6 @@ Give it an Auto-id and create the relevant fields and values for your first docu
 
 
 
-
-
 ## Setting up Firestore
 
 First we need to import the right libraries in the file you will be using

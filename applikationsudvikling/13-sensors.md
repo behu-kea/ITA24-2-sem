@@ -1,7 +1,5 @@
 # Sensors
 
-
-
 Idag skal i selv researche et emne. Det er for at gøre jeg klar til at blive rigtige webudviklere. Det kan godt være lidt angstprovokerende, men husk at jeg er her til at hjælpe jer i processen! 
 
 
