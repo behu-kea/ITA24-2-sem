@@ -93,6 +93,8 @@ Ud af det her skal i lave en læringsplan:
 
 - Kan vi indgå med en anden gruppe, der lærer et emne og præsenterer det? 
 
+- Hvordan laver vi materialet? Skal vi finde noget der allerede er lavet? NIFR har lavet materiale (slides og opgaver) Måske i kan bruge det?
+
 - Skal vi have hjemmearbejde i gruppen? 
 - Skal der være forberedelse til imorgen?
 
