@@ -23,8 +23,7 @@
 
 ## After class considerations
 
-- Really nice class. 
-- Nummerplade opgaven var lidt stenet
+- 
 
 -->
 
@@ -377,13 +376,13 @@ Assign three variables `sideA`, `sideB`, and `sideC` representing the lengths of
 
 
 
-### Weekend or Weekday - level 1
+### Opgave 6 - level 1
 
 Create a program that takes an integer (1-7) representing a day of the week (1 for Monday, 7 for Sunday) and prints whether it's a weekday or weekend using a `when` expression.
 
 
 
-### Exercise 5 - level 2
+### Exercise 7 - level 2
 
 Write a program that loops through the numbers from 1 to 100. For each number, use conditionals to check the following:
 
@@ -394,13 +393,13 @@ Write a program that loops through the numbers from 1 to 100. For each number, u
 
 
 
-### Opgave 6 - level 2
+### Opgave 8 - level 2
 
 Simulate the growth of a population starting with 1,000 individuals. Each year, the population increases by 5%. Use a loop to calculate and print the population at the end of each year for up to 10 years. If at any point the population exceeds 1,500, print `"Population has exceeded 1,500"` and stop the simulation.
 
 
 
-### Opgave 6 - level 2
+### Opgave 9 - level 2
 
 Write some code that prompts the user to provide a number, computes the half of the number and prints the result with a friendly message
 

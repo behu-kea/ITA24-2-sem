@@ -17,6 +17,7 @@
 
 - Go through Higher order functions
   - Maybe also the map function
+  - Trailing lambda
 
 
 
@@ -273,6 +274,12 @@ Write a function that takes an array of strings and returns an array with each s
 
 - Hint: Use the [map](https://kotlinlang.org/docs/collection-transformations.html) function.
 
+```kotlin
+val inputStrings = listOf("apple", "banana", "kiwi", "strawberry", "pear")
+val result = transformStringsLength(inputStrings)
+println(result) // Output: [0, 6, 0, 10, 0]
+```
+
 
 
 ### Opgave 5 - level 2
@@ -303,7 +310,7 @@ Duration: 30 min
 
 In the following exercise one group will randomly be selected to be teachers and the other group will be students
 
-In groups of two people prepare a small 5 minute lecture. The lecture should explain the topic of **trailing lambda** any way you like. That might be with a small slideshow or it might be with code, thats up to you. 
+In groups of two people prepare a small 5 minute lecture. The lecture should explain the topic of **function in Kotlin** any way you like. That might be with a small slideshow or it might be with code, thats up to you. 
 
 - As teachers present the 5 minute lecture
 - As students ask good interesting questions
@@ -322,7 +329,7 @@ Write a dice function that [generates](https://kotlinlang.org/api/latest/jvm/std
 
 
 
-- When testing your functions it could be beneficial to instantiate a test-list with values you know.
+When testing your functions it could be beneficial to instantiate a test-list with values you know.
 
 
 
