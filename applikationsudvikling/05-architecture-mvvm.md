@@ -1,5 +1,58 @@
 # Architecture components & MVVM
 
+
+
+## Learning goals
+
+- App Architecture
+- ViewModels
+- UI Layer
+- MVVM architecture
+
+
+
+## Preparation
+
+- [MVVM in 100 Seconds](https://youtu.be/-xTqfilaYow?si=KWIuays0YUOqO3Dn)
+- [ViewModels & Configuration Changes - Android Basics 2023](https://youtu.be/9sqvBydNJSg?si=Zq2EveH-FIY-VzES)
+- [Intro to app architecture](https://youtu.be/AfCzIEwt_i4?si=yoMf_5ABKgzeDMEe)
+- [Architecture: The UI layer - MAD Skills](https://youtu.be/p9VR8KbmzEE?si=qK33KvEHZKnw0TSy) - Hmm den her er gammel tror jeg
+
+
+
+**(Optional) Reference**
+
+https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-4-pathway-1%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-viewmodel-and-state#0
+
+
+
+## How to save state
+
+- [Should You Use Compose State or StateFlow in Your ViewModels?](https://www.youtube.com/watch?v=T8vApYJlW8o)
+- [https://chatgpt.com/c/675ae6af-2de8-8008-a841-9b367fce5c80](https://chatgpt.com/c/675ae6af-2de8-8008-a841-9b367fce5c80)
+
+
+
+
+
+
+
+## Exercises
+
+
+
+### Opgave 1
+
+Læs den følgende kode og beskriv arkitekturen i applikationen. Hvad synes i om arkitekturen? 
+
+
+
+
+
+
+
+
+
 Add the following to your projects gradle file dependency: 
 
 ```kotlin
