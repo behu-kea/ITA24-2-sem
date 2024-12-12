@@ -4,7 +4,7 @@
 
 ## Learning goals
 
-- Properties
+- Inheritance
 - Access Modifiers
 - Inheritance
   - Override
@@ -105,6 +105,213 @@ fun main() {
 
 ## Topics
 
+*The following is generated from ChatGPT: [https://chatgpt.com/share/675aa097-4168-8008-88a4-d9d7746102f2](https://chatgpt.com/share/675aa097-4168-8008-88a4-d9d7746102f2)*
+
+
+
+### Inheritance
+
+Inheritance allows one class to inherit the properties and methods of another class. Use the `:` symbol to indicate inheritance.
+
+```kotlin
+open class Animal(val name: String) {
+    fun eat() {
+        println("$name is eating")
+    }
+}
+
+class Dog(name: String) : Animal(name) {
+    fun bark() {
+        println("$name is barking")
+    }
+}
+```
+
+Here, `Dog` inherits from the `Animal` class, meaning it has access to the `eat` method in addition to its own `bark` method.
+
+```kotlin
+val fido = Dog("Fido")
+fido.eat()  // Fido is eating
+fido.bark() // Fido is barking
+```
+
+
+
+### Access Modifiers
+
+Access modifiers control the visibility of class members. In Kotlin, these include:
+
+- `public` (default): Accessible everywhere.
+- `private`: Accessible only within the same class.
+- `protected`: Accessible within the class and its subclasses.
+- `internal`: Accessible within the same module.
+
+
+
+```kotlin
+open class Animal {
+    protected fun sleep() {
+        println("Sleeping...")
+    }
+}
+
+class Dog : Animal() {
+    fun takeNap() {
+        sleep() // Accessible because `sleep` is protected
+    }
+}
+
+fun main() {
+    val dog = Dog()
+    dog.takeNap() // Sleeping...
+    // dog.sleep() // Error: Cannot access 'sleep': it is protected
+}
+```
+
+
+
+### Inheritance - Override
+
+To override a method in the parent class, use the `override` keyword in the subclass.
+
+```kotlin
+open class Animal {
+    open fun makeSound() {
+        println("Some generic sound")
+    }
+}
+
+class Dog : Animal() {
+    override fun makeSound() {
+        println("Bark")
+    }
+}
+
+fun main() {
+    val animal: Animal = Dog()
+    animal.makeSound() // Bark
+}
+```
+
+The `open` keyword is required to make a method in the parent class overridable.
+
+The overridden method must have the same signature as the method in the parent class.
+
+
+
+### `super` Keyword
+
+To call the parent class method inside an overridden method, use `super`.
+
+```kotlin
+open class Animal {
+    open fun makeSound() {
+        println("Some generic sound")
+    }
+}
+
+class Dog : Animal() {
+    override fun makeSound() {
+        super.makeSound()
+        println("Bark")
+    }
+}
+```
+
+
+
+This calls the parent class method and then adds the subclass-specific functionality.
+
+
+
+### 4 Pillars of Object-Oriented Programming
+
+#### Encapsulation
+
+Encapsulation involves bundling data (attributes) and behavior (methods) into a single unit (class) and restricting access to them.
+
+
+
+```kotlin
+class Account(private var balance: Int) {
+    fun deposit(amount: Int) {
+        balance += amount
+    }
+
+    fun getBalance(): Int {
+        return balance
+    }
+}
+
+val account = Account(100)
+account.deposit(50)
+println(account.getBalance()) // 150
+// account.balance // Error: Cannot access 'balance'
+```
+
+
+
+#### Abstraction
+
+Abstraction hides implementation details and exposes only the necessary parts of an object.
+
+```kotlin
+abstract class Animal {
+    abstract fun makeSound()
+}
+
+class Dog : Animal() {
+    override fun makeSound() {
+        println("Bark")
+    }
+}
+
+val dog = Dog()
+dog.makeSound() // Bark
+```
+
+
+
+#### Inheritance
+
+Inheritance enables code reuse by allowing one class to inherit the properties and methods of another. (See examples above.)
+
+
+
+#### Polymorphism
+
+Polymorphism allows objects to be treated as instances of their parent class, enabling flexibility and reuse.
+
+```kotlin
+open class Animal {
+    open fun makeSound() {
+        println("Some generic sound")
+    }
+}
+
+class Dog : Animal() {
+    override fun makeSound() {
+        println("Bark")
+    }
+}
+
+class Cat : Animal() {
+    override fun makeSound() {
+        println("Meow")
+    }
+}
+
+fun main() {
+    val animals: List<Animal> = listOf(Dog(), Cat())
+    for (animal in animals) {
+        animal.makeSound()
+    }
+    // Output:
+    // Bark
+    // Meow
+}
+```
+
 
 
 ### Interface
@@ -168,8 +375,6 @@ interface Computer{
 Now we dont need to override the `printLocation` method because it has been defined
 
 A class can inherit from only one class but can implement mutiple interfaces
-
-
 
 
 

@@ -111,6 +111,8 @@ To solve the following exercises you need to understand how to [read text files]
 
 
 
+<!--
+
 ### Opgave 6 - level 2
 
 1. Create a data class named `Book` with the following properties:
@@ -128,9 +130,11 @@ To solve the following exercises you need to understand how to [read text files]
    - Add a few sample books to the inventory.
    - Test adding, removing, searching for, and displaying books in the inventory.
 
+-->
 
 
-### Opgave 7 - Optional
+
+### Opgave 6
 
 We want to analyse [The republic by Plato.](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1235821)
 
@@ -140,7 +144,7 @@ We want to analyse [The republic by Plato.](https://kea-fronter.itslearning.com/
 
 
 
-### Opgave 8 - level 3
+### Opgave 7 - level 3
 
 - Write a method called `smallWordFilter` that, given a non-`null` `String` (not list!) containing words separated by single spaces (`" "`), returns all the words in the original `String` that are 3 characters or shorter in the same order in which they appeared in the original `String`, as a `List<String>`.
 
@@ -152,7 +156,7 @@ Hint: https://kotlinandroid.org/kotlin/kotlin-split-string/
 
 
 
-### Opgave 9 - level 3
+### Opgave 8 - level 3
 
 (This question was asked by microsoft for a coding interview)
 

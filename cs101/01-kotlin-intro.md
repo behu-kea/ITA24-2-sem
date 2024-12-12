@@ -11,10 +11,16 @@
   1. large 11 week project with 2 handins (iterations) relevant for you
      - You have to find your own problem/project
 - Test i uge 6. Trivselssamtaler efter 5 uger
+- Læringskurven bliver stejlere og i kan godt forvente at bruge mere tid på opgaver derhjemme
 - Ansvaret for læring er større
   - Der er større forberedelser, især i Android. Ikke kun video, men også noget kode i skal lave inden. Typisk gennem en guide
   - Nogle gange skal i selv finde forberedelse
   - I Android kommer jeg til at kode nogle apps for jer. Så det er vigtigere at komme til selve klassen
+  - Jeg kommer til at inddrage jer mere i opgaverne. Fx vil jeg gerne opnå tre ting med opgaverne i klassen
+    - Der skal være mindre fokus på den genererede kode, men mere på om i kan snakke om koden og forstå den. Hvordan koden er blevet produceret er lidt lige meget
+    - I skal lære at lære. I skal være refleksive omkring jeres egen læringsprocess. Hvad virker godt for jer, hvad virker dårligt. Hvornår skal i bruge chatten, hvornår skal i ikke. 
+    - Lavere fravær. 
+    - Det vil jeg have jeres hjælp til! Der kommer til at være opgaver der kun går på den her slags ting. Hvis jeg husker det lol
 
 
 

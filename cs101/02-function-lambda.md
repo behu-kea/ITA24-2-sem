@@ -218,6 +218,12 @@ Or just go through the exercises as usual
 
 
 
+### Opgave 0 - 10 min
+
+Hvordan kan vi næste gang lave en opgave der gør at i som studerende skal snakke sammen om noget kode der bliver genereret af ChatGPT? 
+
+
+
 ### Opgave 1 - Level 1
 
 Write variables to represent a rectangle:
