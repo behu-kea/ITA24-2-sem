@@ -60,6 +60,8 @@ I skal arbejde i jeres studiegrupper
 
 ## Plan for idag - læringsfasen
 
+
+
 ### Overblik - 30 min
 
 *Hvad skal vi overhovedet lære og hvad skal vi ikke lære?*
@@ -70,9 +72,16 @@ Først skal i finde ud af hvilke emner i vil fokusere på? Hvad vil i specifikt 
 
 Find ud af hvordan i tester at i har den viden der skal til. Skal i kunne løse opgaver, svare på spørgsmål, gennemføre en quiz, vurdere forskellig situationer? Kan i allerede nu lave de ting i skal kunne når i er færdige? Måske kan i finde noget online eller spørge [chatten](https://chatgpt.com/share/675ac19d-69d0-8008-ae59-76f577ce63f0).
 
+Ud af det her skal i lave en læringsplan:
+
+- Hvad vil i lære idag?
+- Hvad skal i lære imorgen?
+- Er der hjemmearbejde?
+- Er der forberedelse til imorgen?
 
 
-### Hvad skal de forskellige grupper lære? - 10 min
+
+### På klassen - Hvad skal de forskellige grupper lære og hvordan tester i? - 10 min
 
 
 
@@ -85,6 +94,11 @@ Find ud af hvordan i tester at i har den viden der skal til. Skal i kunne løse 
 - Kan vi indgå med en anden gruppe, der lærer et emne og præsenterer det? 
 
 - Skal vi have hjemmearbejde i gruppen? 
+- Skal der være forberedelse til imorgen?
+
+
+
+### Pause 10 - 10:15
 
 
 
@@ -115,7 +129,7 @@ Her er en liste over forskellige læringsteknikker i har prøvet før og deres p
 
 ### Peer instruction
 
-**Fordele:** 
+**Fordele** 
 
 - Skaber viden på tværs af en gruppe
 - Er social
@@ -125,7 +139,7 @@ Her er en liste over forskellige læringsteknikker i har prøvet før og deres p
 
 
 
-**Ulempe:**
+**Ulempe**
 
 - Tester ikke dybdegående viden, færdigheder eller kompetencer
 - Tester paratviden
@@ -135,7 +149,7 @@ Her er en liste over forskellige læringsteknikker i har prøvet før og deres p
 
 ### Præsentation af et emne, fx Teachers/students
 
-Fordele
+**Fordele**
 
 - Skaber viden på tværs af grupper
 - Skaber dybere viden, da man skal præsentere for andre
@@ -143,7 +157,7 @@ Fordele
 
 
 
-Ulemper
+**Ulemper**
 
 - Hvis man ikke er nok inde i stoffet er det svært at lave en præsentation
 - Studerende kan blive præsenteret for viden der er forkert
@@ -152,14 +166,14 @@ Ulemper
 
 ### Tavle undervisning
 
-Fordele
+**Fordele**
 
 - Emner kan bliver forklaret pædagogisk og på de studerendes niveau
 - Emner kan kontekstualiseres
 
 
 
-Ulemper
+**Ulemper**
 
 - One size fits all, man kan spilde tid, da nogle studerende måske allerede kan emnet man underviser
 - Der skal være en "ekspert" der kan køre undervisningen
@@ -168,14 +182,14 @@ Ulemper
 
 ### Live kodning
 
-Fordele
+**Fordele**
 
 - Studerende bliver vist hvordan man kan programmerer et emne. 
 - Man ser syntaksen, fejlene, genvejene når en underviser livekoder
 
 
 
-Ulemper
+**Ulemper**
 
 - Underviser har typisk meget erfaring og kan hurtigt lave opgaverne, uden alle de frustrerende trin en studerende skal igennem
 - Kan overse ting der er nemt for underviseren, men svært for de studerende
@@ -184,7 +198,7 @@ Ulemper
 
 ### Løs en opgave med programmering
 
-Fordele
+**Fordele**
 
 - Den studerende udvikler sine kompetencer. Ikke kun sin viden
 - Den studerende skal både vide og kunne for at løse opgave
@@ -193,7 +207,7 @@ Fordele
 
 
 
-Ulemper
+**Ulemper**
 
 - Studerende kan løse opgaver med ChatGPT og derved undgå selve læringen
 - Kan føre til frustrationer
@@ -205,14 +219,14 @@ Ulemper
 
 ### Pair Programming
 
-Fordele
+**Fordele**
 
 - Man kan blive inspireret til hvordan man skal skrive kode
 - Der bliver dannet viden og kompetencer på tværs af folk i en gruppe
 
 
 
-Ulemper
+**Ulemper**
 
 - Man skal sikre sig at niveauet mellem to er nogenlunde det samme
 - Man skal sikre sig at alle får tid ved keyboardet
@@ -221,7 +235,7 @@ Ulemper
 
 ### Giv feedback på kode
 
-Fordele
+**Fordele**
 
 - Den studerende bliver inspireret af at se andres kode.
 - Refleksionen ift andres kode kan blive overført til egen kode. "Husk at starte med `const` som variable" - Hmm mon jeg egentlig selv gør det
@@ -229,7 +243,7 @@ Fordele
 
 
 
-Ulemper
+**Ulemper**
 
 - Man kan føle at man ikke har kompetencerne til at give feedback
 - Hvad skal man fokusere på når man giver feedback? Her kan en Feedback rubrik være hjælpsom
@@ -238,17 +252,15 @@ Ulemper
 
 ### Case
 
-Fordele
+**Fordele**
 
 - Man arbejder på ting som man også laver i virkeligheden
 - Man kan virkelig udvikle sine kompetencer her
 
 
 
-Ulemper
+**Ulemper**
 
 - Det kan være svært og tidskrævende at finde en god case
 - Det kan være svært at finde en balance mellem at arbejde på relevante kompetencer og samtidig løse et rigtigt problem
-
-
 
