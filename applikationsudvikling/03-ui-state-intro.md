@@ -235,7 +235,7 @@ Lad os vente med `AC`, `+/-`, `%` og `.`
 
 Når man klikker på `=` skal enten resultatet vises (hvis secret mode er `false`) ellers skal det tal brugeren har tastet ind vises (hvis secret mode er `true`)
 
-Jeg ahr fået ChatGPT til at at lave en funktion der tager en streng af operationer og udfører operationerne. Den hedder `getResult`
+Jeg har fået ChatGPT til at at lave en funktion der tager en streng af operationer og udfører operationerne. Den hedder `getResult`
 
 ```kotlin
 getResult("2+34-10"); // 26

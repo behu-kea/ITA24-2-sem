@@ -1,12 +1,13 @@
 # Navigation
 
+Måske skal jeg lave en password manager her
+
 
 
 <!--
 
 ## After class considerations
 
-- Den var lidt for svær idag. Præsentationen var ikke specielt lærerig for dem
 - Jeg skulle have startet med at lave et lille eksempel. Måske er jeg ved at vænne dem til at jeg forklarer alt?
 - Kodeeksemplet var også alt for kompliceret
 - Ellers meditation gik godt
@@ -131,7 +132,171 @@ We can also pop back to a specific route `navController.popBackStack("screen1", 
 
 
 
-## Code example
+## Code examples
+
+
+
+### Simple navigation between two composables
+
+```kotlin
+package com.example.navigation
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
+
+import androidx.compose.material3.Button
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.unit.sp
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContent {
+            val navController = rememberNavController()
+            Column {
+                Text(
+                    text = "Navigation App Example",
+                    fontSize = 45.sp
+                )
+                
+                NavHost(navController = navController, startDestination = "home-screen") {
+                    composable("home-screen") {
+                        HomeScreen("benjamin",
+                            onScreen2ButtonClick = {
+                                navController.navigate("screen2")
+                            })
+                    }
+                    composable("screen-2") {
+                        Screen2(onBackButtonClick = {
+                          	// This will go back to the home-screen
+                            navController.popBackStack()
+                        })
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun HomeScreen(name: String, onScreen2ButtonClick: () -> Unit) {
+    Column {
+        Text(
+            text = "Screen 1",
+            fontSize = 32.sp
+        )
+        Text(
+            text = "Hello $name!"
+        )
+        Button(onClick = onScreen2ButtonClick) {
+            Text("Go to Screen 2")
+        }
+    }
+}
+
+@Composable
+fun Screen2(onBackButtonClick: () -> Unit) {
+    Column {
+        Text(
+            text = "Screen 2!",
+            fontSize = 32.sp
+        )
+        Button(onClick = onBackButtonClick) {
+            Text("Back")
+        }
+    }
+}
+```
+
+
+
+### Sending arguments from one screen to another
+
+```kotlin
+package com.example.navigation
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.Button
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.unit.sp
+import androidx.navigation.NavType
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContent {
+            val navController = rememberNavController()
+            Column {
+                Text(
+                    text = "Navigation App Example",
+                    fontSize = 45.sp
+                )
+                NavHost(navController = navController, startDestination = "home-screen") {
+                    composable("home-screen") {
+                        HomeScreen("benjamin",
+                            onArgumentsButtonClick = {
+                                val stringToSend = "Benjamin"
+                                // this is how the "url" will look: sendArgumentsHere/Benjamin
+                                navController.navigate("sendArgumentsHere/${stringToSend}")
+                            })
+                    }
+                    composable("sendArgumentsHere/{name}", arguments = listOf(navArgument("name") { type = NavType.StringType })) { backStackEntry ->
+                        val name = backStackEntry.arguments?.getString("name") ?: return@composable
+                        SendArgumentsHere(name)
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun HomeScreen(name: String, onArgumentsButtonClick: () -> Unit) {
+    Column {
+        Text(
+            text = "Screen 1",
+            fontSize = 32.sp
+        )
+        Text(
+            text = "Hello $name!"
+        )
+        Button(onClick = onArgumentsButtonClick) {
+            Text("To arguments screen")
+        }
+    }
+}
+
+@Composable
+fun SendArgumentsHere(name: String) {
+    Text(text = "This is from the arguments: $name")
+}
+```
+
+
+
+
+
+
+
+
+
+
 
 ```kotlin
 package com.example.navigation
@@ -167,7 +332,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.navigation.ui.theme.NavigationTheme
-
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -271,14 +435,11 @@ fun SendArgumentsHere(name: String) {
 
 
 
-## 📝 Navigations præsentation - 30 min
+## 📝 Learning with ChatGPT - 20 min
 
-I din studiegruppe lav en præsentation på 5 min der kommer ind på disse emner:
+Individually spend 30 minutes with ChatGPT to learn this topic as well as you can in 20 minutes. Maybe that is just an overview, maybe that's creating code.
 
-- `NavHost` and `NavController`
-- Navigation between routes
-- Sending data from one route to another
-- `popBackStack`
+After the 20 minutes lets share some of the prompts and approaches to learning we took
 
 
 
