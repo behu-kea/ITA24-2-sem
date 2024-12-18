@@ -148,10 +148,10 @@ Der findes [1000 YouTube videoer](https://www.youtube.com/results?search_query=d
 #### Kravene til appen
 
 - Man skal kunne lave et nyt todo element med en titel og en beskrivelse
-- Man skal kunne se hvor mange elementer man har i sin liste
-- Man skal se hvor mange elementer man har tilbage (dem der ikke er krydset ud)
-- Man skal kunne slette elementer
-- Man skal selvfølgelig også kunne se elementerne
+- Man skal kunne se todo elementerne
+- Man skal kunne se antal elementer man har tilbage (dem der ikke er krydset ud)
+- Man skal kunne se antal elementer man har i sin liste
+- Man skal kunne slette elementer - *optional*
 
 
 
@@ -163,5 +163,5 @@ Kl. 11:15 vælger jeg 3 grupper der skal præsentere deres valg. Tænk over hvor
 
 
 
-Der er et starter projekt her: 
+Tag udgangspunkt i det her kode: [https://github.com/behu-kea/note-app-mvvm](https://github.com/behu-kea/note-app-mvvm). Start med at dele UI'et op i nogle relevant komponenter
 
