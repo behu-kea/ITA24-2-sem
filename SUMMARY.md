@@ -12,22 +12,23 @@
   *  [07 - Algorithms & searching & sorting & big O](cs101/06-algorithms-searching-sorting-big-o.md)
   *  [08 - Recap](cs101/07-recap.md)
   *  [09 - Test](cs101/08-test.md)
-  
 * Applikationsudvikling
 
-  * [01 - Introduction](applikationsudvikling/01-introduction.md) 
-  * [02 - Basic layout](applikationsudvikling/02-basic-layout.md)
-  * [03 - UI state 1](applikationsudvikling/03-ui-state-intro.md)
-  * [04 - UI state 2](applikationsudvikling/04-ui-state-lists.md)
-  * [05 - Architecture & MVVM.md](applikationsudvikling/05-architecture-mvvm.md) 
-  * [06 - Compose navigation](applikationsudvikling/06-compose-navigation.md)
-  * [07 - Firebase authentication](applikationsudvikling/07-Firebase-Authentication.md) 
+  * [01 - Basic layout & Android Studio](applikationsudvikling/02-basic-layout.md)
+  * [02 - UI state - Composition & State](applikationsudvikling/03-ui-state-intro.md)
+  * [03 - UI state - Scrollable lists](applikationsudvikling/04-ui-state-lists.md)
+  * [04 - Architecture & MVVM.md](applikationsudvikling/05-architecture-mvvm.md) 
+  * [05 - Compose navigation](applikationsudvikling/06-compose-navigation.md)
+  * [06 - Data from the internet - Retrofit](applikationsudvikling/10-Retrofit.md)
+  * [07 - Concurrency & Retrofit in Android](applikationsudvikling/11-concurrency-retrofit-android.md)
+  * 08 - Github branching & Readme & Recap
   * [09 - Firebase Cloud Firestore](applikationsudvikling/09-firebase-cloud-firestore.md)
-  * [10 - Retrofit](applikationsudvikling/10-Retrofit.md) 
-  * [11 - Concurrency & Retrofit in Android](applikationsudvikling/11-concurrency-retrofit-android.md) 
-  * [12 - UX report to app](applikationsudvikling/12-ux-report-to-app.md)
-  * [13 - Working with sensors](applikationsudvikling/13-sensors.md)
-  * [14 - Testing](applikationsudvikling/14-testing.md)
+  * [10 - Working with sensors](applikationsudvikling/13-sensors.md)
+  * 11 - Shape kommer forbi
+  * [12 - Testing](applikationsudvikling/14-testing.md)
+  * 13 - Android recap
+  * 
+  * 
   * [Web Scraping](digital-kultur/webscraping.md) 
 
 
