@@ -8,6 +8,7 @@ Compose is a declarative UI framework, meaning that you *declare* how the UI sho
 
 - State
 - Handle input in textField
+- Trailing lambda
 
 
 

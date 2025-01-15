@@ -17,9 +17,6 @@
 
 - Go through Higher order functions
   - Maybe also the map function
-  - Trailing lambda
-
-
 
 <!--
 

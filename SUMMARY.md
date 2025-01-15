@@ -5,7 +5,7 @@
 
   *  [01 - Kotlin intro](cs101/01-kotlin-intro.md)
   *  [02 - Functions & exceptions](cs101/02-function-lambda.md)
-  *  [03 - classes-and-objects.md](cs101/03-classes-and-objects.md)
+  *  [03 - Classes & objects](cs101/03-classes-and-objects.md)
   *  [04 - Inheritance & access modification](cs101/04-inheritance-access-modification.md)
   *  [05 - Datastructures & collections](cs101/05-datastructures-collections.md)
   *  [06 - Algorithms & searching & sorting & big O](cs101/06-algorithms-searching-sorting-big-o.md)

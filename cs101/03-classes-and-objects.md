@@ -11,7 +11,7 @@
   - Encapsulation
 - Objects
 - This
-- Behavior vs data
+- Behavior vs state
 - toString
 
 

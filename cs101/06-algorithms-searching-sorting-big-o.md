@@ -1,7 +1,5 @@
 # Searching, sorting and Big O
 
-
-
 De næste to gange skal i selv planlægge og gennemføre jeres læring. Det er blandt andet for at styrke det her punkt fra studieordningen: " identificere egne læringsbehov".
 
 
