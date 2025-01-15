@@ -1,19 +1,18 @@
 # Table of contents
 
 * [Front Page](README.md)
-
 * CS101
 
-  * [01 - Kotlin intro](cs101/01-kotlin-intro.md)
-  * [02 - Control flow & lambda functions](cs101/02-control-flow-lambda.md)
-  * [03 - Classes and objects](cs101/03-classes-and-objects.md)
-  * [04 - Inheritance & access modification](cs101/04-inheritance-access-modification.md) 
-
-  - [05 - Interfaces & abstract](cs101/05-interfaces-abstract.md)
-  - [06 - Collections](CS101/06-collections-enum.md)
-  - [07 - Searching and Time Complexity](CS101/07-searchingtimecomplexity.md) 
-  - [08-sortingbigO.md](CS101/08-sortingbigO.md) 
-
+  *  [01 - Kotlin intro](cs101/01-kotlin-intro.md)
+  *  [02 - Functions & exceptions](cs101/02-function-lambda.md)
+  *  [03 - classes-and-objects.md](cs101/03-classes-and-objects.md)
+  *  [04 - Inheritance & access modification](cs101/04-inheritance-access-modification.md)
+  *  [05 - Datastructures & collections](cs101/05-datastructures-collections.md)
+  *  [06 - Algorithms & searching & sorting & big O](cs101/06-algorithms-searching-sorting-big-o.md)
+  *  [07 - Algorithms & searching & sorting & big O](cs101/06-algorithms-searching-sorting-big-o.md)
+  *  [08 - Recap](cs101/07-recap.md)
+  *  [09 - Test](cs101/08-test.md)
+  
 * Applikationsudvikling
 
   * [01 - Introduction](applikationsudvikling/01-introduction.md) 

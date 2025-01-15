@@ -44,7 +44,7 @@ Add functionality to the above application such that:
 
 Add functionality to the above application such that:
 
-- Users can save catfacts that they like 
+- Users can save catfacts that they like
   - The catfact are saved to an arraylist in the ViewModel. The list represents an 'in-memory' database
 - When a user 'likes' a catfact, a counter on the same screen is updated. Such as below:
 

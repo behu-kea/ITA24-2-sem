@@ -9,6 +9,18 @@ Reference project: https://github.com/nicklasdean/retrofit-basic
 
 
 
+## Opgaver
+
+
+
+### Opgaver 1 - Training Ground
+
+
+
+
+
+
+
 ## Make it work: GET request
 
 #### Exercise A
@@ -17,6 +29,8 @@ Without using the android framework (empty project - as seen in the reference pr
 
 - Create an API interface, Model / DTO and retrofit instance such that: 
   - You can fetch a single random event and print its properties to the console
+
+
 
 #### Exercise B
 
@@ -35,6 +49,8 @@ Without using the android framework (empty project - as seen in the reference pr
 - Expand the project with another API call with parameters
 - The program takes a number of participants as parameter and returns a random activity with a given numbner of participants
   - The user inputs the parameters by standard input: readLine()
+
+
 
 #### Exercise C
 

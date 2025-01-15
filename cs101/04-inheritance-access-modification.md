@@ -4,7 +4,6 @@
 
 ## Learning goals
 
-- Inheritance
 - Access Modifiers
 - Inheritance
   - Override
