@@ -14,19 +14,19 @@
   *  [09 - Test](cs101/08-test.md)
 * Applikationsudvikling
 
-  * [01 - Basic layout & Android Studio](applikationsudvikling/02-basic-layout.md)
-  * [02 - UI state - Composition & State](applikationsudvikling/03-ui-state-intro.md)
-  * [03 - UI state - Scrollable lists](applikationsudvikling/04-ui-state-lists.md)
-  * [04 - Architecture & MVVM.md](applikationsudvikling/05-architecture-mvvm.md) 
-  * [05 - Compose navigation](applikationsudvikling/06-compose-navigation.md)
-  * [06 - Data from the internet - Retrofit](applikationsudvikling/10-Retrofit.md)
-  * [07 - Concurrency & Retrofit in Android](applikationsudvikling/11-concurrency-retrofit-android.md)
-  * 08 - Github branching & Readme & Recap
+  * [01 - Basic layout & Android Studio](applikationsudvikling/01-basic-layout.md)
+  * [02 - UI state - Composition & State](applikationsudvikling/02-ui-state-intro.md)
+  * [03 - UI state - Scrollable lists](applikationsudvikling/03-ui-state-lists.md)
+  * [04 - Architecture & MVVM.md](applikationsudvikling/04-architecture-mvvm.md)
+  * [05 - Compose navigation](applikationsudvikling/05-compose-navigation.md)
+  * [06 - Data from the internet - Retrofit](applikationsudvikling/06-data-from-internet-retrofit.md)
+  * [07 - Concurrency & Retrofit in Android](applikationsudvikling/07-concurrency-retrofit-android.md)
+  * [08 - Github & branching & Readme & recap](applikationsudvikling/08-github-branching-readme-recap.md) 
   * [09 - Firebase Cloud Firestore](applikationsudvikling/09-firebase-cloud-firestore.md)
-  * [10 - Working with sensors](applikationsudvikling/13-sensors.md)
-  * 11 - Shape kommer forbi
-  * [12 - Testing](applikationsudvikling/14-testing.md)
-  * 13 - Android recap
+  * [10 - Working with sensors](applikationsudvikling/10-sensors.md)
+  *  [11 - Shape kommer forbi](applikationsudvikling/11-shape.md)
+  * [12 - Testing](applikationsudvikling/12-testing.md)
+  * [13 - Android recap](applikationsudvikling/13-android-recap.md)
 
 
 * [Weekly Handins](handins/README.md)
