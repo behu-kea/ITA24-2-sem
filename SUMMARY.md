@@ -27,17 +27,10 @@
   * 11 - Shape kommer forbi
   * [12 - Testing](applikationsudvikling/14-testing.md)
   * 13 - Android recap
-  * 
-  * 
-  * [Web Scraping](digital-kultur/webscraping.md) 
 
 
-* [Handins](handins/README.md)
+* [Weekly Handins](handins/README.md)
   * [1](handins/week-1.md)
   * [2](handins/week-2.md)
   * [3](handins/week-3.md)
-
-* Tværfaglige projekter
-
-  * [Eksamensbeskrivelse](Projects/eksamne-formelle-krav.md) 
 
