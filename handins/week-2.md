@@ -7,11 +7,6 @@
 - Inheritance & Access modifiers
 
 
-**Hand in**
-
-[https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1227802](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1227802)
-
-
 
 ### 1.
 

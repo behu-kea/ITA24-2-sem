@@ -6,10 +6,6 @@
 - Control Flow
 - Lambda Functions
 
-**Hand in**
-
-[https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1227801](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1227801)
-
 
 
 ### 1.

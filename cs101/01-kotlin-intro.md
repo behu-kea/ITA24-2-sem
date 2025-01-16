@@ -155,6 +155,8 @@ It should log the transformed array
 
 Cover nullability og debugging
 
+Should video title be `val` or `var` [https://www.youtube.com/watch?v=d0d9nsTLaKo](https://www.youtube.com/watch?v=d0d9nsTLaKo)
+
 
 
 ## Preparation

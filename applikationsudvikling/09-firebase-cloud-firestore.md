@@ -5,7 +5,6 @@
 ## Overview
 
 - [https://www.youtube.com/@Wirtual](https://www.youtube.com/@Wirtual)
-- Gå skemaet igennem for resten af semestret
 - Snakke om repositories/arkitektur
 - Create an app that uses firestore to save some entities (notes, videos, recipes, whatever)
 
