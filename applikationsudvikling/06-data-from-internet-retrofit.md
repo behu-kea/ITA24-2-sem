@@ -2,6 +2,16 @@
 
 
 
+## Learning goals
+
+- Interface
+- Retro
+  - Sending http requests with Retro
+    - Get, post, put, update, delete
+  - Getting data into models
+
+
+
 ### Interface
 
 An interface works a lot like a contract or a set of rules. In an interface we define attributes and functions a class should have to implement that specific interface. 

@@ -4,7 +4,12 @@
 
 
 
+## Learning goals
 
+- Coroutines
+  - `suspend`
+  - `runBlocking`
+  - `lifecycleScope.launch`
 
 
 
