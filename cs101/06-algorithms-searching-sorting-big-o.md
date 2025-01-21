@@ -44,6 +44,10 @@ Altså:
 
 
 
+*Check out [https://visualgo.net/](https://visualgo.net/)*
+
+
+
 ## Preparation
 
 Der skal være noget forberedelse til det. 
@@ -264,3 +268,19 @@ Her er en liste over forskellige læringsteknikker i har prøvet før og deres p
 - Det kan være svært og tidskrævende at finde en god case
 - Det kan være svært at finde en balance mellem at arbejde på relevante kompetencer og samtidig løse et rigtigt problem
 
+
+
+### ChatGPT
+
+Fordele
+
+- Kan være et super brugbart værktøj til læring
+- Kan lave individualiseret læring der er tilpasset den studerende
+
+
+
+Ulemper
+
+- Kan være svær at bruge hvis man ikke har brugt LLM'er før
+- Kan hallucinere, så den studerende lærer ting der er forkerte
+- Kan løse den studerendes opgaver. Den studerende kan få en falsk fornemmelse af at de kan noget, de faktisk ikke kan
