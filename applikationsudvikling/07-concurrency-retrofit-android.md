@@ -10,6 +10,7 @@
   - `suspend`
   - `runBlocking`
   - `lifecycleScope.launch`
+- Repository pattern
 
 
 
