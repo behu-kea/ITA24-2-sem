@@ -308,7 +308,7 @@ In this example the value of `this` is equal to the object `skippy`. That means 
 
 ### Pre-exercise
 
-Using the code from your handed in assignment. Present the code for your study mate. Talk about the code technically. What is it doing and why you didi it that way. 
+Using the code from your handed in assignment. Present the code for your study mate. Talk about the code technically. What is it doing and why did you do it that way?
 
 
 

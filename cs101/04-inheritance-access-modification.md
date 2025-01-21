@@ -8,13 +8,13 @@
 - Inheritance
   - Override
 - 4 pillars
-- Interface
 
 
 
 ## Overview
 
 - Talk about 4 pillars of OOP. With code examples
+- Talk about inheritance vs composition: [https://chatgpt.com/share/678f9586-9ff4-8008-b4b7-ddd8f161f6b0](https://chatgpt.com/share/678f9586-9ff4-8008-b4b7-ddd8f161f6b0)
 
 
 

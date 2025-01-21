@@ -7,7 +7,7 @@
 - CS 101
   - Weekly handins first 3 weeks
 - Android with Kotlin
-- 1 project
+- 3 projekter
   1. large 11 week project with 2 handins (iterations) relevant for you
      - You have to find your own problem/project
 - Test i uge 6. Trivselssamtaler efter 5 uger
@@ -147,7 +147,7 @@ print(transformed_array) // [4, 1, 10, 2, 16]
 
 It should log the transformed array
 
-Cover nullability og debugging
+ Cover debugging
 
 Should video title be `val` or `var` [https://www.youtube.com/watch?v=d0d9nsTLaKo](https://www.youtube.com/watch?v=d0d9nsTLaKo)
 

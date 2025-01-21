@@ -14,25 +14,26 @@ Måske skal jeg lave en password manager her
 
 
 
-## Overview
-
-- Small guided meditation through Medito
-  - Quick intro to benefits from meditating
-  - [https://meditofoundation.org/meditations/beginner-meditation-course](https://meditofoundation.org/meditations/beginner-meditation-course)
-- Work on case. Recreate the navigation of the Medito App
-
-
-
-![Meditation benefits](assets/CleanShot-2024-03-14-at-07.27.03.png)
-
-
-
 ## Learning goals
 
 - Compose navigation
 - `Navhost`
 - `NavController`
 - Backstack
+
+
+
+## Overview
+
+- Small guided meditation through Medito
+  - Quick intro to benefits from meditating
+  - [https://meditofoundation.org/meditations/beginner-meditation-course](https://meditofoundation.org/meditations/beginner-meditation-course)
+- Work on case. Recreate the navigation of the Medito App
+- Tænk over hvilken GenAI app i vil lave til næste gang. Vi kommer til at have 2 gange til det
+
+
+
+![Meditation benefits](assets/CleanShot-2024-03-14-at-07.27.03.png)
 
 
 

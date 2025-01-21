@@ -66,8 +66,6 @@ A class can inherit from only one class but can implement mutiple interfaces
 
 
 
-
-
 Reference project: https://github.com/nicklasdean/retrofit-basic
 
 
@@ -77,9 +75,95 @@ Reference project: https://github.com/nicklasdean/retrofit-basic
 
 
 
+### Getting internet to work
+
+Reference: https://github.com/nicklasdean/catfacts-app
+
+**Important**
+
+- Insert the following into your AndroidManifest.xml
+  - Found in the manifests folder
+
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+```
+
+- Insert before the <application tag
+
+```xml
+// Like this
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"                             
+...
+```
+
+
+
+
+
 ## Opgaver
 
 
+
+
+
+### Opgaver 1 - Få trænet dine Retro skills 🏋️‍♀️
+
+Vi starter med nogle opgaver der skal træne jeres Retro færdigheder og få sendt nogle requests afsted. vi skal arbejde med det her api: [https://reqres.in/](https://reqres.in/)
+
+
+
+#### Get requests
+
+1. Lav et get request til [https://reqres.in/api/users](https://reqres.in/api/users) og log alle brugerne ud
+2. Lav et get request til [https://reqres.in/api/users/2](https://reqres.in/api/users/2) for at logge en specifik bruger ud
+
+
+
+#### Post request
+
+Opret en ny bruger.
+
+*Brugeren bliver ikke rent faktisk oprettet, api'et simulerer det bare*
+
+
+
+#### Put/patch request
+
+Opdater en bruger
+
+
+
+#### Delete request
+
+Slet en bruger
+
+
+
+
+
+
+
+### Opgave 2 - GenAI app
+
+I skal nu bruge et api til at lave en Generativ AI app ligesom vi gjorde sidste semester. [Her er linket](https://behu.gitbook.io/ita-24-1-semester/web-technology/17-lets-build-a-generative-ai-tool#getting-started) til apidelen. 
+
+
+
+
+
+
+
+<!--
+
+https://github.com/behu-kea/prompts-api
 
 ### Opgaver 1 - Training Ground
 
@@ -176,8 +260,4 @@ Client code (or other developers) should be able to use the repository class wit
 
 
 
-## Advanced (Optional) 
-
-Use the following API: https://anapioficeandfire.com/
-
-- Create a model and retrofit instance such that a user can request a character by name and receive all data about the character
+-->

@@ -50,7 +50,9 @@ Altså:
 
 ## Preparation
 
-Der skal være noget forberedelse til det. 
+- [Big O in 2 Minutes](https://www.youtube.com/watch?v=4TUgqm2gJkE)
+- [Algorithms Explained for Beginners - How I Wish I Was Taught](https://www.youtube.com/watch?v=JJkWemM03Lg)
+- [Top 7 Algorithms for Coding Interviews Explained **SIMPLY**](https://www.youtube.com/watch?v=kp3fCihUXEg)
 
 
 
