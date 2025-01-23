@@ -33,19 +33,33 @@
 
 
 
+## Topics
+
+
+
+### Coroutines
+
+
+
+```
+lifecycleScope.launch {
+```
+
+#### 
+
 ## Opgaver
 
 
 
 ### Opgave 1 - Timer app
 
-1. Lav en timer der venter 5 sekunder før den viser confetti. Gør det både med blocking og ikke blocking. Brug `lifecycleScope.launch`, `runblocking` og `delay` funktionen
+1. Lav en timer der venter 5 sekunder før den viser konfetti. Gør det både med blocking og ikke blocking. Brug `lifecycleScope.launch`, `runblocking` og `delay` funktionen
 
 2. Gør sådan at en bruger kan skrive hvor lang tid der skal ventes før Konfetti skal vises. Når brugeren klikker på en knap skal der gå den tid brugeren har sagt der skal ventes før konfettien kommer
 
 
 
-Her er starter kode til at få konfetti til at virke når man klikker på en knap. Hvad er forskellen mellem blocking og ikke blocking?
+[Her er starterkoden](https://github.com/behu-kea/konfetti-android) til at få konfetti når man klikker på en knap. Hvad er forskellen mellem blocking og ikke blocking?
 
 
 
