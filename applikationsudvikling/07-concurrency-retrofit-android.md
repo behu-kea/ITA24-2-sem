@@ -8,6 +8,7 @@
   - `suspend`
   - `runBlocking`
   - `lifecycleScope.launch`
+  - `CoroutineScope(Dispatchers.Main).launch {`
 - Repository pattern
 
 
@@ -18,6 +19,7 @@
 - [WHAT: Co-Routines](https://youtu.be/ShNhJ3wMpvQ?si=cXQfE2A6wYuoxt2v)
 - [HOW: Co-Routines](https://youtu.be/kvfpuzSwVZ8?si=6khS1C1za8mts_a3)
 - [Retrofit Co-routines](https://youtu.be/S-10lLA0nbk?si=YT9YQvK6TIWsiw6O)
+- Mangler noget med repository pattern her. Suspend funktion sov
 
 
 (Optional) Documentation
@@ -45,7 +47,61 @@
 lifecycleScope.launch {
 ```
 
-#### 
+
+
+#### Repository pattern
+
+Here is a simple repository pattern:
+
+```kotlin
+data class User(val id: Long, val name: String, val email: String)
+
+interface UserRepository {
+    fun getUserById(id: Long): User?
+    fun getAllUsers(): List<User>
+    fun addUser(user: User)
+    fun removeUser(user: User)
+}
+
+class UserRepositoryImpl : UserRepository {
+    private val users = mutableListOf<User>()
+
+    override fun getUserById(id: Long): User? {
+        return users.find { it.id == id }
+    }
+
+    override fun getAllUsers(): List<User> {
+        return users.toList()
+    }
+
+    override fun addUser(user: User) {
+        users.add(user)
+    }
+
+    override fun removeUser(user: User) {
+        users.remove(user)
+    }
+}
+
+fun main() {
+    val userRepository: UserRepository = UserRepositoryImpl()
+
+    val user1 = User(1, "John Doe", "john.doe@example.com")
+    val user2 = User(2, "Jane Doe", "jane.doe@example.com")
+
+    userRepository.addUser(user1)
+    userRepository.addUser(user2)
+
+    println("All users:")
+    userRepository.getAllUsers().forEach { println(it) }
+
+    println("User with ID 1: ${userRepository.getUserById(1)}")
+}
+```
+
+
+
+
 
 ## Opgaver
 
