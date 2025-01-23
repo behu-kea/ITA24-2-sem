@@ -368,23 +368,6 @@ Create a class named `Student` to represent student information.  Include proper
 
 
 
-### Opgave 5 - level 2
-
-Create two classes `Mobile` and `RaspberryPi` that implements this interface:
-
-```java
-public interface Computer {
-    val name: String;
-    val price: Int;
-  
-  	fun printNameAndPrice();
-}
-```
-
-Create two `Mobile` and two `RaspberryPi` objects
-
-
-
 ### Opgave 6 - level 3
 
 Create a class `Person`. A person has a cpr number and name

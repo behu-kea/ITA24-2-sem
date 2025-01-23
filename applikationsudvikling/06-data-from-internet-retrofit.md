@@ -4,11 +4,30 @@
 
 ## Learning goals
 
-- Interface
-- Retro
+- `interface`
+- Retrofit
   - Sending http requests with Retro
     - Get, post, put, update, delete
   - Getting data into models
+
+
+
+## Preparation
+
+- https://developer.android.com/codelabs/basic-android-kotlin-compose-getting-data-internet#5
+  - 4, 5, 6, 7, 8
+- [The Ultimate Retrofit Crash Course](https://youtu.be/t6Sql3WMAnk?si=RAlDRMktVSe3PAdD) - *optional*
+
+
+
+## Overview
+
+- Quickly go through infra slides
+- Opgaver
+
+
+
+## Topics
 
 
 
@@ -76,22 +95,92 @@ A class can inherit from only one class but can implement mutiple interfaces
 
 
 
-Reference project: https://github.com/nicklasdean/retrofit-basic
+### Retrofit HTTP Client
+
+Retrofit is a popular HTTP client library in Kotlin that simplifies sending HTTP requests and processing API responses. It uses annotations to define the HTTP operations and converts JSON to Kotlin objects automatically.
 
 
 
-- Read the documentation to the following API: 
-  - https://www.boredapi.com/documentation
+#### API Interface
+
+The API interface in Retrofit defines the endpoints of your API. It acts as a contract that specifies the HTTP operations your app can perform. Annotations like `@GET`, `@POST`, etc., specify the type of HTTP request.
+
+**Example:**
+
+```kotlin
+interface CatFactsApi {
+    @GET("/fact")
+    suspend fun getFact(): CatFact
+}
+```
+
+**Explanation:**
+
+- `@GET("/fact")`: This defines an HTTP GET request to the `/fact` endpoint.
+- `suspend fun getFact()`: A suspend function is used for coroutine-based asynchronous requests.
+- The return type, `CatFact`, is a Kotlin data class that represents the response.
+
+
+
+#### Model / Data Transfer Object (DTO)
+
+The model, also known as a Data Transfer Object (DTO), represents the structure of the data received from or sent to the API. Retrofit automatically maps JSON responses to these data classes using libraries like Gson or Moshi.
+
+**Example:**
+
+```kotlin
+data class CatFact(
+    @SerializedName("fact")
+    val fact: String,
+
+    @SerializedName("length")
+    val length: Int
+)
+```
+
+**Explanation:**
+
+- `@SerializedName`: Maps the JSON key to the property in the Kotlin class.
+- `fact`: A `String` that holds the cat fact text.
+- `length`: An `Int` representing the length of the cat fact.
+
+
+
+#### Retrofit Instance
+
+The Retrofit instance is the central part of the library. It defines the base URL and configures how API requests and responses are handled, including JSON conversion.
+
+**Example:**
+
+```kotlin
+class RetrofitInstance {
+    private val baseURL = "https://catfact.ninja/"
+
+    private val retrofitClient = Retrofit.Builder()
+        .baseUrl(baseURL)
+        .addConverterFactory(GsonConverterFactory.create())
+        .build()
+
+    val apiService = retrofitClient.create(CatFactsApi::class.java)
+}
+```
+
+**Explanation:**
+
+- `Retrofit.Builder()`: Creates a new Retrofit instance.
+- `.baseUrl(baseURL)`: Sets the base URL for the API.
+- `.addConverterFactory(GsonConverterFactory.create())`: Specifies Gson for JSON serialization and deserialization.
+- `retrofitClient.create(CatFactsApi::class.java)`: Creates an implementation of the `CatFactsApi` interface.
 
 
 
 ### Getting internet to work
 
-Reference: https://github.com/nicklasdean/catfacts-app
+Reference: [https://github.com/nicklasdean/catfacts-app](https://github.com/nicklasdean/catfacts-app)
 
 **Important**
 
-- Insert the following into your AndroidManifest.xml
+- Insert the following into your `AndroidManifest.xml`
   - Found in the manifests folder
 
 ```xml
@@ -116,15 +205,32 @@ Reference: https://github.com/nicklasdean/catfacts-app
 
 
 
-
-
 ## Opgaver
 
 
 
+### Opgave 1 - level 1
+
+Create two classes `Mobile` and `RaspberryPi` that implements this interface:
+
+```java
+public interface Computer {
+    val name: String;
+    val price: Int;
+  
+  	fun printNameAndPrice();
+}
+```
+
+Create two `Mobile` and two `RaspberryPi` objects
 
 
-### Opgaver 1 - Få trænet dine Retro skills 🏋️‍♀️
+
+
+
+### Opgaver 2 - Få trænet dine Retrofit skills 🏋️‍♀️
+
+Reference project: https://github.com/nicklasdean/retrofit-basic
 
 Vi starter med nogle opgaver der skal træne jeres Retro færdigheder og få sendt nogle requests afsted. vi skal arbejde med det her api: [https://reqres.in/](https://reqres.in/)
 
@@ -132,8 +238,8 @@ Vi starter med nogle opgaver der skal træne jeres Retro færdigheder og få sen
 
 #### Get requests
 
-1. Lav et get request til [https://reqres.in/api/users](https://reqres.in/api/users) og log alle brugerne ud
-2. Lav et get request til [https://reqres.in/api/users/2](https://reqres.in/api/users/2) for at logge en specifik bruger ud
+1. Log alle brugerne ud vha  [https://reqres.in/api/users](https://reqres.in/api/users)
+2. Log en specifik bruger ud vha [https://reqres.in/api/users/2](https://reqres.in/api/users/2)
 
 
 
@@ -157,17 +263,9 @@ Slet en bruger
 
 
 
-
-
-
-
-### Opgave 2 - GenAI app
+### Opgave 3 - GenAI app
 
 I skal nu bruge et api til at lave en Generativ AI app ligesom vi gjorde sidste semester. [Her er linket](https://behu.gitbook.io/ita-24-1-semester/web-technology/17-lets-build-a-generative-ai-tool#getting-started) til apidelen. 
-
-
-
-
 
 
 
