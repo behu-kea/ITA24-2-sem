@@ -20,7 +20,6 @@
 - [Retrofit Co-routines](https://youtu.be/S-10lLA0nbk?si=YT9YQvK6TIWsiw6O)
 
 
-
 (Optional) Documentation
 [https://developer.android.com/kotlin/coroutines](https://developer.android.com/kotlin/coroutines)
 
@@ -28,7 +27,9 @@
 
 ## Overview
 
-
+- Concurrency slides
+- Opgaver
+- Students teachers
 
 
 
@@ -36,29 +37,42 @@
 
 
 
-### Opgaver 1 - Tænk over din arkitektur
+### Opgave 1 - Timer app
 
-Resturkturer din [https://reqres.in/](https://reqres.in/) app så den følger disse patterns:
+1. Lav en timer der venter 5 sekunder før den viser confetti. Gør det både med blocking og ikke blocking. Brug `lifecycleScope.launch`, `runblocking` og `delay` funktionen
+
+2. Gør sådan at en bruger kan skrive hvor lang tid der skal ventes før Konfetti skal vises. Når brugeren klikker på en knap skal der gå den tid brugeren har sagt der skal ventes før konfettien kommer
+
+
+
+Her er starter kode til at få konfetti til at virke når man klikker på en knap. Hvad er forskellen mellem blocking og ikke blocking?
+
+
+
+### Opgaver 2 - Tænk over din arkitektur
+
+Resturkturer din [https://reqres.in/](https://reqres.in/) app så den følger **repository pattern**, men også disse patterns:
 
 - MVVM
-
-- Repository pattern
 - Stateless komponenter
 
-
-
-### Opgaver 2 - delay
-
-Lav en app der efter 2 sekunder logger noget ud til konsollen. Først blocking så ikke blocking
+Det skal gøres med `suspend` funktioner inde i repoet.
 
 
 
-Det kunne være fedt hvis man kunne få confetti til at virke.
+### Opgave 3 - Teachers students
 
-Kan man gøre sådan at brugeren bestemmer hvor lang tid vi skal vente
+Duration: 30 min
+
+In the following exercise one group will randomly be selected to be teachers and the other group will be students
+
+In groups of two people prepare a small 5 minute lecture. The lecture should explain the topic of **Coroutines and repository patters** any way you like. That might be with a small slideshow or it might be with code, thats up to you. 
+
+- As teachers present the 5 minute lecture
+- As students ask good interesting questions
 
 
 
-### Opgave 3 - Arbejd videre på din GenAI app
+### Opgave 4 - Arbejd videre på din GenAI app
 
-Arbejd videre med din GenAI app. Fokuser især på repository pattern
+Arbejd videre med din GenAI app. Fokuser på repository pattern og suspend funktioner

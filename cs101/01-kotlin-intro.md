@@ -2,60 +2,8 @@
 
 
 
-## Course outline
+## Learning goals
 
-- CS 101
-  - Weekly handins first 3 weeks
-- Android with Kotlin
-- 3 projekter
-  1. large 11 week project with 2 handins (iterations) relevant for you
-     - You have to find your own problem/project
-- Test i uge 6. Trivselssamtaler efter 5 uger
-- Læringskurven bliver stejlere og i kan godt forvente at bruge mere tid på opgaver derhjemme
-- Ansvaret for læring er større
-  - Der er større forberedelser, især i Android. Ikke kun video, men også noget kode i skal lave inden. Typisk gennem en guide
-  - Nogle gange skal i selv finde forberedelse
-  - I Android kommer jeg til at kode nogle apps for jer. Så det er vigtigere at komme til selve klassen
-  - Jeg kommer til at inddrage jer mere i opgaverne. Fx vil jeg gerne opnå tre ting med opgaverne i klassen
-    - Der skal være mindre fokus på den genererede kode, men mere på om i kan snakke om koden og forstå den. Hvordan koden er blevet produceret er lidt lige meget
-    - I skal lære at lære. I skal være refleksive omkring jeres egen læringsprocess. Hvad virker godt for jer, hvad virker dårligt. Hvornår skal i bruge chatten, hvornår skal i ikke. 
-    - Lavere fravær. 
-    - Det vil jeg have jeres hjælp til! Der kommer til at være opgaver der kun går på den her slags ting. Hvis jeg husker det lol
-
-
-
-
-<!--
-
-## After class considerations
-
-- 
-
--->
-
-
-
-### Learning goals
-
-- My approach to learning something new
-  - Get an overview of what you need to learn. What can you already know? What different topics are there within what i am learning.
-  - Figure out your learning gaps (if you dont know them yourself)
-    - Ask ChatGPT to quiz you and give you feedback: "Hey ChatGPT, i am learning Kotlin i am not sure where my knowledge gaps are. Ask me 10 questions where i have to answer. When you are done. Give me feedback on where my knowledge gaps are."
-  - Try and use what you already know to learn new stuff.
-    - Is this the `when` statement just like if else in javascript?
-    - Is `Box` in Compose UI just like a `div` in html?
-  - YouTube & ChatGPT
-    - Multiple YouTube videos on same topic. What are the essential topics all the videos are focusing on? Supply with ChatGPT
-    - Fx learning sorting and big O:
-      - **ChatGPT:** "I am learning about sorting and Big O. What are the different topics within that?". With the answer from ChatGPT. "Now figure out which of these topics i already know. do that by asking me questions, making me write code, etc. Thats up to you."
-      - **YouTube:** Search for: "Big O sorting", "sorting in kotlin", "Big O kotlin", "sorting datastructure kotlin"
-      - Watch videos, consolidate what i learnt. Write a markdown file that teaches the topic i am learning. 
-      - Do practical coding challenges. Either from ChatGPT or from just stuff i find online. **This is where the actual learning takes place**. 
-  - Now create projects, exercises, problems that i have to solve with code. This is where the learning takes place
-  - Write a markdown file that teaches what i am learning. Super useful!!!
-  - Seek discomfort. I go towards what i dont know. Constantly challenging myself. Learning takes place where there is discomfort/frustration (my take)
-  - Be reflective about your learning strategy. Is the way you are learning right now the best strategy for you?
-  -  IN CS101 your focus should be on syntax and the new concepts!
 - Kotlin
   - Compile vs runtime
   - Interpretation vs compilation Tjek NIFR slides
@@ -74,6 +22,18 @@
   - When
 - Loops
   - Ranges
+
+
+
+## Overview
+
+\- Intro til applikationsudvikling faget
+\- Hvordan lærer jeg nyt stof
+\- Peer instruction
+\- Jeg koder lidt Kotlin
+\- Opgaver
+\- Pause kl 10
+\- Jeg løser en opgave på tavlen
 
 
 
