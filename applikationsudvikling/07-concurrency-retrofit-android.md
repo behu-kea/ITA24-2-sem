@@ -1,6 +1,4 @@
-# Async with coroutines & retrofit & retrofit
-
-
+# Async with coroutines & retrofit
 
 
 
@@ -11,6 +9,26 @@
   - `runBlocking`
   - `lifecycleScope.launch`
 - Repository pattern
+
+
+
+## Preparation
+
+- [WHY: Co-Routines](https://youtu.be/ne6CD1ZhAI0?si=0WWltvIn1skCfkV9)
+- [WHAT: Co-Routines](https://youtu.be/ShNhJ3wMpvQ?si=cXQfE2A6wYuoxt2v)
+- [HOW: Co-Routines](https://youtu.be/kvfpuzSwVZ8?si=6khS1C1za8mts_a3)
+- [Retrofit Co-routines](https://youtu.be/S-10lLA0nbk?si=YT9YQvK6TIWsiw6O)
+
+
+
+(Optional) Documentation
+[https://developer.android.com/kotlin/coroutines](https://developer.android.com/kotlin/coroutines)
+
+
+
+## Overview
+
+
 
 
 
