@@ -100,7 +100,7 @@ print(transformed_array) // [4, 1, 10, 2, 16]
 
 It should log the transformed array
 
- Cover debugging
+Cover debugging
 
 Should video title be `val` or `var` [https://www.youtube.com/watch?v=d0d9nsTLaKo](https://www.youtube.com/watch?v=d0d9nsTLaKo)
 
