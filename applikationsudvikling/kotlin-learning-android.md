@@ -164,7 +164,7 @@ verticalArrangement = Arrangement.Center
 
 #### Box
 
-`Box` composable in Jetpack Compose can be somewhat analogous to a `div` in HTML, particularly in the way it's often used as a container for  other UI elements. It's a layout composable that allows you to stack its children on top of each other
+`Box` composable in Jetpack Compose can be somewhat analogous to a `div` in HTML, particularly in the way it's often used as a container for other UI elements. It's a layout composable that allows you to stack its children on top of each other
 
 
 

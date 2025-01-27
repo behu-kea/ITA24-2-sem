@@ -27,13 +27,13 @@
 
 ## Overview
 
-\- Intro til applikationsudvikling faget
-\- Hvordan lærer jeg nyt stof
-\- Peer instruction
-\- Jeg koder lidt Kotlin
-\- Opgaver
-\- Pause kl 10
-\- Jeg løser en opgave på tavlen
+- Intro til applikationsudvikling faget
+- Hvordan lærer jeg nyt stof
+- Jeg koder lidt Kotlin
+- Peer instruction
+- Opgaver
+- Pause kl 10
+- Jeg løser en opgave af opgaverne
 
 
 
@@ -80,13 +80,6 @@ for (i in 1..5) {
 5. None of the above
 
 
-
-### Question 3
-
-```kotlin
-val list = listOf(1, 2, 3, 4, 5)
-println(list[3])
-```
 
 -->
 
