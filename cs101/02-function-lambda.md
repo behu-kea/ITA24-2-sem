@@ -1,5 +1,9 @@
 
 
+## Functions & lambda functions
+
+
+
 ## Learning goals
 
 - Exceptions
@@ -24,6 +28,14 @@
 
 
 
+## Preparation
+
+- [Learn Kotlin for Android: Lambda Expressions (Lesson 24)](https://www.youtube.com/watch?v=yx4CY_OUZok)
+- [Learn Kotlin for Android: User Input (Lesson 6)](https://www.youtube.com/watch?v=XkBYH9vLs50)
+- [043 Kotlin Programming Language Fundamentals - Trailing Lambda](https://www.youtube.com/watch?v=dRLTWKlz7QY)
+
+
+
 <!--
 
 ## Peer instruction
@@ -41,6 +53,12 @@ fun main() {
 }
 ```
 
+1. Hello, $name!
+2. Hello, undefined!
+3. Hello Kotlin!
+4. EMPTY string
+5. Syntax error
+
 
 
 ### Question 2 - 1 min
@@ -55,32 +73,12 @@ fun main() {
 }
 ```
 
-
-
-### Question 3 - 2 min
-
-```kotlin
-fun repeatTask(times: Int, action: (Int) -> Unit) {
-    for (i in 1..times) action(i)
-}
-
-fun main() {
-    repeatTask(3) { i ->
-        if (i == 2) return
-        println("Task executed $i times")
-    }
-}
-```
+1. [3, 5, 6, 9]
+2. [4, 8, 12, 16]
+3. [1, 2, 3, 4]
+4. None of the above
 
 -->
-
-
-
-## Preparation
-
-- [Learn Kotlin for Android: Lambda Expressions (Lesson 24)](https://www.youtube.com/watch?v=yx4CY_OUZok)
-- [Learn Kotlin for Android: User Input (Lesson 6)](https://www.youtube.com/watch?v=XkBYH9vLs50)
-- [043 Kotlin Programming Language Fundamentals - Trailing Lambda](https://www.youtube.com/watch?v=dRLTWKlz7QY)
 
 
 
@@ -108,6 +106,42 @@ println(secondLargest(prices))
 
 ```kotlin
 val max2 = {a:Int, b:Int ->
+     if(a > b) {
+         a // This is implicitly returned
+     } else {
+         b // This is implicitly returned
+     }
+}
+println(max2(33,4)) // 33
+
+val hundredLarger = {a:Int -> a + 100 }
+println(hundredLarger(10)) // 110
+```
+
+The last expression is automatically returned! We can control what is returned with this keyword `return@FUNCTION_NAME_TO_RETURN_TO` 
+
+```kotlin
+val max2 = {a:Int, b:Int ->
+     if(a > b) {
+         return@max2 a // This is implicitly returned
+     } else {
+         return@max2 a // This is implicitly returned
+     }
+}
+println(max2(33,4)) // 33
+
+val hundredLarger = {a:Int -> a + 100 }
+println(hundredLarger(10)) // 110
+```
+
+
+
+### Lambda types
+
+Lambda types are written like this:
+
+```kotlin
+val max2: (Int, Int) -> Int = {a:Int, b:Int ->
      if(a > b) {
          a // This is implicitly returned
      } else {
@@ -215,12 +249,6 @@ try {
 
 
 
-### Learn with Benjamin's learning approach 
-
-Or just go through the exercises as usual
-
-
-
 ### Opgave 0 - 10 min
 
 Hvordan kan vi næste gang lave en opgave der gør at i som studerende skal snakke sammen om noget kode der bliver genereret af ChatGPT? 
@@ -319,7 +347,7 @@ Duration: 30 min
 
 In the following exercise one group will randomly be selected to be teachers and the other group will be students
 
-In groups of two people prepare a small 5 minute lecture. The lecture should explain the topic of **function in Kotlin** any way you like. That might be with a small slideshow or it might be with code, thats up to you. 
+In groups of two people prepare a small 5 minute lecture. The lecture should explain the topic of **lambda functions in Kotlin** any way you like. That might be with a small slideshow or it might be with code, thats up to you. 
 
 - As teachers present the 5 minute lecture
 - As students ask good interesting questions
@@ -328,9 +356,9 @@ In groups of two people prepare a small 5 minute lecture. The lecture should exp
 
 ### Opgave 8 - level 3
 
-Write a dice function that [generates](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/) and returns a random number between 1-6.
+Write a dice function that [generates](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/) and returns a random number between 1-6
 
-- Write another function that uses the dice function to roll an amount of times decided by the user.
+- Write another function that uses the dice function to roll an amount of times decided by the user
   - The functions returns the dice rolls as a list
 - Write a function that takes the dice rolls as a parameter and returns the average
 - Write a function that takes the dice rolls as a paramater and returns the mean
