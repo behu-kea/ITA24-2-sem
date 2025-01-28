@@ -6,8 +6,9 @@
 
 - App Architecture
 - MVVM architecture
-- ViewModels
-- UI Layer
+  - ViewModels
+  - UI Layer
+
 - Hoisting
 
 

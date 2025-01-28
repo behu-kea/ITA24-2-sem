@@ -25,6 +25,30 @@
 
 
 
+
+
+
+
+BIG O
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Overview
 
 - Intro til applikationsudvikling faget

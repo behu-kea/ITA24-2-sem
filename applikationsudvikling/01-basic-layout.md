@@ -167,6 +167,10 @@ Button(onClick = {
 
 ## Exercises
 
+Idag får i tid til at arbejde på jeres tøjbytte projekt. Det er vigtigt at i arbejder med at implementere UI i Compose UI! Fra firma/sketch til Compose UI komponenter. 
+
+Hvis i ikke har et design at arbejde på, kan i arbejde på opgaverne herunder
+
 
 
 ### Layout
@@ -176,6 +180,10 @@ Recreate the following layouts
 ![Recreate the following layouts](assets/CleanShot-2023-02-27-at-11.04.42.png)
 
 For this exercise you will need to do some research. Fx how to add an image, how column and rows work, etc. 
+
+
+
+
 
 
 
