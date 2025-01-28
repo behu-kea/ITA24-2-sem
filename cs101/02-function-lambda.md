@@ -15,8 +15,12 @@
 
 ## Overview
 
+- [https://behu.gitbook.io/ita24-2.-semester/ai-retningslinjer](https://behu.gitbook.io/ita24-2.-semester/ai-retningslinjer)
+- Hvorfor det her semester er mega fedt!
+- [https://behu-kea.github.io/favicon-timer/](https://behu-kea.github.io/favicon-timer/)
 - Go through Higher order functions
   - Maybe also the map function
+  - Løs samme opgaver som igår
 
 
 
