@@ -1,8 +1,10 @@
 # AI retningslinjer
 
+Ai er et fantastisk læringsværktøj som virkelig kan accellere jeres læringsprocess. Det er dog vigtigt at man er obs på hvordan man bruger AI "korrekt". På 2. semester forventer jeg at i begynder at blive mere bekendte med AI. Hvilke modeller er gode til hvad, hvordan laver jeg en god prompt, hvad er AI god til og hvad er den mindre god til?
 
 
-På 2. semester forventer jeg at i begynder at blive mere bekendte med AI. Der skal være fokus på korrekt brug af AI. På 2. semester betyder det:
+
+Der skal være fokus på korrekt brug af AI. På 2. semester betyder det:
 
 - Hjælp til at forstå koncepterne bedre
 - Få feedback til den kode man har skrevet eller ens forståelse af et emne
@@ -19,6 +21,7 @@ I skal **ikke** bruge AI til
 - At lave koden for jer
 - Løse opgaver for jer
 - Få AI til at generere løsningen på en opgave for derefter læse opgaven igennem og tro at man forstår
+- Det kode som er i jeres projekter, skal i kunne stå på mål for og forklare! 
 
 
 
