@@ -33,4 +33,4 @@
   * [1](handins/week-1.md)
   * [2](handins/week-2.md)
   * [3](handins/week-3.md)
-
+*  [AI retningslinjer](ai-retningslinjer.md)
