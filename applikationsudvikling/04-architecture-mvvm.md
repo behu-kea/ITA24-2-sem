@@ -4,12 +4,13 @@
 
 ## Learning goals
 
-- App Architecture
 - MVVM architecture
-  - ViewModels
-  - UI Layer
-
-- Hoisting
+  - Model
+  - View
+  - ViewModel
+- Hoisting state
+- App Architecture
+  - 
 
 
 
@@ -18,6 +19,7 @@
 - [MVVM in 100 Seconds](https://youtu.be/-xTqfilaYow?si=KWIuays0YUOqO3Dn)
 - [ViewModels & Configuration Changes - Android Basics 2023](https://youtu.be/9sqvBydNJSg?si=Zq2EveH-FIY-VzES)
 - [Intro to app architecture](https://youtu.be/AfCzIEwt_i4?si=yoMf_5ABKgzeDMEe)
+- [State Hoisting with Jetpack Compose](https://www.youtube.com/watch?v=GT1VJweyNr0)
 
 
 
@@ -29,7 +31,13 @@ https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-an
 
 ## Overview
 
-- Talk about 
+- Benjamin snakker
+  - MVVM
+    - Hvad er de forskellige lag
+
+  - State hoisting
+    - Hvordan kommer vi fra en stateful app over til en der er stateless?
+
 
 
 
