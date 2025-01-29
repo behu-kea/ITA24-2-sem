@@ -297,7 +297,7 @@ Create a function that computes the area and the perimeter of the rectangle and 
 
 ### Opgave 2 - level 2
 
-Write a Kotlin function that accepts two integers from the user and then prints 
+Write a Kotlin function that takes two integers and then prints 
 
 - the sum
 - the difference
@@ -321,6 +321,8 @@ Distance of two integers: 20
 Max integer: 25
 Min integer: 5
 ```
+
+The two inputs should come from user input
 
 
 
