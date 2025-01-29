@@ -11,6 +11,7 @@
 - Functions
   - Lambda Functions
   - Higher Order-functions
+  - Trailing lambda
   
 
 
@@ -18,12 +19,13 @@
 
 ## Overview
 
-- [https://behu.gitbook.io/ita24-2.-semester/ai-retningslinjer](https://behu.gitbook.io/ita24-2.-semester/ai-retningslinjer)
 - Hvorfor det her semester er mega fedt!
+- [https://behu.gitbook.io/ita24-2.-semester/ai-retningslinjer](https://behu.gitbook.io/ita24-2.-semester/ai-retningslinjer)
 - [https://behu-kea.github.io/favicon-timer/](https://behu-kea.github.io/favicon-timer/)
+- Alt kode jeg skriver smider jeg herind: [https://github.com/behu-kea/ita24-2sem-code](https://github.com/behu-kea/ita24-2sem-code)
 - Go through Higher order functions
-  - Maybe also the map function
   - Løs samme opgaver som igår
+  - Lav en greeting higher order function
 
 
 
