@@ -26,7 +26,7 @@
 - benjamin koder
   - Higher order function. Greeting
   - Løs samme opgaver som igår med map
-  - nullability
+  - Nullability
 
 
 
