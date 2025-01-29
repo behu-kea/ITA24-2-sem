@@ -10,9 +10,8 @@
 - Nullability
 - Functions
   - Lambda Functions
+  - Higher Order-functions
   
-- Higher Order-functions
-  - Trailing lambda
 
 
 
@@ -196,7 +195,9 @@ fun main (){
 
 
 
-#### Trailing lambda
+<!--
+
+### Trailing lambda
 
 This you will see all the time later on!
 
@@ -227,7 +228,7 @@ Button {
 
 Here we call the `Button` higher order function that takes a function as its last parameter. 
 
-
+-->
 
 ### Exceptions
 
@@ -245,15 +246,43 @@ try {
 
 
 
+### Nullability
+
+By default, variables cannot be `null`:
+
+```kotlin
+var name: String = "Alice"  // Non-nullable
+name = null  // Compilation error
+```
+
+
+
+If a variable **can** be `null`, you must declare it with a **nullable type** using `?`:
+
+```kotlin
+var name: String? = "Alice"  // Nullable
+name = null  // Allowed
+```
+
+
+
+To avoid `NullPointerException`, you can use **safe calls (`?.`)** when accessing properties or methods of a nullable variable:
+
+```kotlin
+val length: Int? = name?.length  // Returns length or null if name is null
+```
+
+
+
 ## Exercises
 
-
+<!--
 
 ### Opgave 0 - 10 min
 
 Hvordan kan vi næste gang lave en opgave der gør at i som studerende skal snakke sammen om noget kode der bliver genereret af ChatGPT? 
 
-
+-->
 
 ### Opgave 1 - Level 1
 
