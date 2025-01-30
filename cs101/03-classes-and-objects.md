@@ -18,6 +18,7 @@
 
 ## Overview
 
+- Hvornår vil i gerne have at Ane er tilgængelig udenfor klassen?
 - Peer instruction
 - Model Smartphone
   - Getter setter
@@ -25,6 +26,7 @@
   - Constructor
   - Data vs behaviour
 - Classes are blueprints
+- 
 
 
 

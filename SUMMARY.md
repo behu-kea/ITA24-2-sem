@@ -34,3 +34,4 @@
   * [2](handins/week-2.md)
   * [3](handins/week-3.md)
 *  [AI retningslinjer](ai-retningslinjer.md)
+*  [Kode fra klassen](https://github.com/behu-kea/ita24-2sem-code)

@@ -4,13 +4,14 @@
 
 ## Learning goals
 
+- Clean architecture
+  - Seperation of concerns
+  - Clear responsibilities
 - MVVM architecture
   - Model
   - View
   - ViewModel
 - Hoisting state
-- App Architecture
-  - 
 
 
 
@@ -18,8 +19,8 @@
 
 - [MVVM in 100 Seconds](https://youtu.be/-xTqfilaYow?si=KWIuays0YUOqO3Dn)
 - [ViewModels & Configuration Changes - Android Basics 2023](https://youtu.be/9sqvBydNJSg?si=Zq2EveH-FIY-VzES)
-- [Intro to app architecture](https://youtu.be/AfCzIEwt_i4?si=yoMf_5ABKgzeDMEe)
 - [State Hoisting with Jetpack Compose](https://www.youtube.com/watch?v=GT1VJweyNr0)
+- [Guide to app architecture](https://developer.android.com/topic/architecture)
 
 
 
@@ -31,12 +32,20 @@ https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-an
 
 ## Overview
 
-- Benjamin snakker
+- Benjamin viser slides og går igennem
+  - Clean architecture
+    
   - MVVM
     - Hvad er de forskellige lag
-
+  
   - State hoisting
-    - Hvordan kommer vi fra en stateful app over til en der er stateless?
+    - Hvordan kommer vi fra en stateful komponent over til en der er stateless?
+
+
+
+## Topics
+
+- Hvordan laver jeg en viewmodel
 
 
 
@@ -135,38 +144,33 @@ implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 
 
 
-### Opgave 2 - Todo list app
+### Opgave 2 - Todo list app arkitektur
 
-at lave en todo list app er en af softwareudviklernes Rite of passage og det er der en rigtig god grund til:
+Vi er hyret ind som IT-konsulenter ved firmaet Todoist. De har promtet sig til en app som de er begyndt at sælge. De oplever desværre bare mange problemer med deres app. 
 
-- Det er et klassisk eksempel på state (en liste af todo elementer)
-- Der er forskellige former for state. 
-  - Man kan krydse et element ud
-  - Man kan slette det
-  - Man kan tilføje et nyt element
-- Der skal bruges noget input fra brugeren
+- Det er svært for dem at tilføje features. 
+- Når de skal teste deres app er det vildt besværligt, da de manuelt skal ind og genskabe de use cases der var problemer med.
+- Desuden ligger det hele bare i en enkelt fil og det er svært for dem at finde rundt i den
 
-Der findes [1000 YouTube videoer](https://www.youtube.com/results?search_query=develop+todolist+app) der viser hvordan man laver sådan en app i alle mulige forskellig programmeringssprog
+Deres CEO (Michael) har hørt fra en af hans gamle studiekammerater på CBS at Clean Architecture er "The Shit". Studiekammeraten nævnte også noget med MV et eller andet, men det ved CEO'en ikke hvad er. 
 
-
-
-#### Kravene til appen
-
-- Man skal kunne lave et nyt todo element med en titel og en beskrivelse
-- Man skal kunne se todo elementerne
-- Man skal kunne se antal elementer man har tilbage (dem der ikke er krydset ud)
-- Man skal kunne se antal elementer man har i sin liste
-- Man skal kunne slette elementer - *optional*
+Opgaven vi har fået er at få appen til at følge Clean Architecture
 
 
 
-**Inden** i går igang med at programmere, skal i lave en struktur som den vist ovenfor. I skal tænke over hvordan i vil strukturere jeres arkitektur.
+Appen ligger [her](https://github.com/behu-kea/note-app-mvvm) og der er desværre ikke noget dokumentation til den. 
 
 
 
-Kl. 11:15 vælger jeg 3 grupper der skal præsentere deres valg. Tænk over hvor jeres Views, view models og models ligger henne. 
+### Opgaver
+
+1. Finde ud af hvordan appen virker. Gå igennem koden og forstå koden grundigt. Det kan i måske få hjælp til at CahtGPT. I skal kunne forklare hvad der sker i appen!
+2. Læg en plan for hvordan i vil restrukturere appen. Lav en kort præsentation til Michael, der viser hvad det er i har tænkt jeg at gøre for a fikse de problmer de har med deres app. Jeg udvælger to grupper der skal præsentere deres plan kl 10:15!
+3. Fork projektet og lav de ændringer der skal til for at appen følger Clean Architecture tankegangen
+4. Kl 11:20 vælger jeg to grupper der skal præsentere deres ændringer
+5. Michael sagde at hvis der var tid må i gerne tilføje en feature så man kan se antal elementer man har tilbage i listen (dem der ikke er krydset ud)
 
 
 
-Tag udgangspunkt i det her kode: [https://github.com/behu-kea/note-app-mvvm](https://github.com/behu-kea/note-app-mvvm). Start med at dele UI'et op i nogle relevant komponenter
+*I skal måske lave en `gradle.properties` fil, der skal ligge i roden af projektet. Den skal indeholde den her linje: `android.useAndroidX=true`*
 
