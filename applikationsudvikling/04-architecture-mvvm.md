@@ -21,12 +21,7 @@
 - [ViewModels & Configuration Changes - Android Basics 2023](https://youtu.be/9sqvBydNJSg?si=Zq2EveH-FIY-VzES)
 - [State Hoisting with Jetpack Compose](https://www.youtube.com/watch?v=GT1VJweyNr0)
 - [Guide to app architecture](https://developer.android.com/topic/architecture)
-
-
-
-**(Optional) Reference**
-
-https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-4-pathway-1%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-viewmodel-and-state#0
+-  [Add a ViewModel](https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-4-pathway-1%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-viewmodel-and-state#0) - Optional
 
 
 
@@ -72,12 +67,10 @@ class MainActivity : ComponentActivity() {
 
 
 
-
-
-## How to save state
+## How to save state ChatGPT talk
 
 - [Should You Use Compose State or StateFlow in Your ViewModels?](https://www.youtube.com/watch?v=T8vApYJlW8o)
-- [https://chatgpt.com/c/675ae6af-2de8-8008-a841-9b367fce5c80](https://chatgpt.com/c/675ae6af-2de8-8008-a841-9b367fce5c80)
+- [Should i use mutableStateOf, MutableStateFlow or MutableLiveData?](https://chatgpt.com/c/675ae6af-2de8-8008-a841-9b367fce5c80)
 
 
 
