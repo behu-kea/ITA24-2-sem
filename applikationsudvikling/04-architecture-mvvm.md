@@ -40,12 +40,36 @@ https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-an
   
   - State hoisting
     - Hvordan kommer vi fra en stateful komponent over til en der er stateless?
+  - Nævn at der er flere måder at håndtere state på
+    - `mutableStateOf`
+    - `MutableStateFlow`
 
 
 
 ## Topics
 
-- Hvordan laver jeg en viewmodel
+
+
+### Viewmodels
+
+Initier dine viewmodels sådan her:
+
+```kotlin
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContent {
+          // Her laver vi et viewmodel som vi kalder vores App med som argument
+            val notesViewModel = viewModel<NotesViewModel>();
+
+            App(notesViewModel);
+        }
+    }
+}
+```
+
+
 
 
 
