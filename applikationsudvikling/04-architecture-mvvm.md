@@ -64,6 +64,27 @@ class MainActivity : ComponentActivity() {
 }
 ```
 
+To import the ViewModel library add this:
+
+```toml
+[libraries]
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version = "2.6.2" }
+```
+
+To the `libs.versions.toml` file
+
+Now in the `build.gradle.kts (module)` add this:
+
+```
+implementation(libs.androidx.lifecycle.viewmodel.compose)
+```
+
+to the `dependencies {` part!
+
+
+
+
+
 
 
 
