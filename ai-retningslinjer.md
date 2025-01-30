@@ -7,10 +7,10 @@ Ai er et fantastisk læringsværktøj som virkelig kan accellere jeres læringsp
 Der skal være fokus på korrekt brug af AI. På 2. semester betyder det:
 
 - Hjælp til at forstå koncepterne bedre
-- Få feedback til den kode man har skrevet eller ens forståelse af et emne
-- Bruge AI til at forklare programmeringskoncepter på en simpel måde
+- Få feedback til den kode man har skrevet eller ens forståelse af et emne. [Eksempel](https://chatgpt.com/g/g-e86Y0eXNp-webteknologi-web-feedback)
+- Bruge AI til at forklare programmeringskoncepter på en simpel måde. [Eksempel](https://behu.gitbook.io/ita-24-1-semester/web-technology/07-1-generative-ai#explain-piece-of-code)
 - Bruge AI som opslagsværk til fx at se hvordan man itererer en liste i Kotlin
-- Få hjælp til at finde læringshuller
+- Få hjælp til at finde læringshuller 
 - Bruge AI til at øve jeres tekniske vokabularium. Iterere et array, kalde en funktion, variablen er immutable, etc.
 - Bruge AI til at teste jeres viden
 

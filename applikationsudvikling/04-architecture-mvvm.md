@@ -181,8 +181,8 @@ Appen ligger [her](https://github.com/behu-kea/note-app-mvvm) og der er desværr
 
 ### Opgaver
 
-1. Finde ud af hvordan appen virker. Gå igennem koden og forstå koden grundigt. Det kan i måske få hjælp til at CahtGPT. I skal kunne forklare hvad der sker i appen!
-2. Læg en plan for hvordan i vil restrukturere appen. Lav en kort præsentation til Michael, der viser hvad det er i har tænkt jeg at gøre for a fikse de problmer de har med deres app. Jeg udvælger to grupper der skal præsentere deres plan kl 10:15!
+1. Finde ud af hvordan appen virker. Gå igennem koden og forstå koden grundigt. Det kan i måske få hjælp til at ChatGPT. I skal kunne forklare hvad der sker i appen!
+2. Læg en plan for hvordan i vil restrukturere appen. Lav en kort præsentation til Michael, der viser hvad det er i har tænkt jeg at gøre for a fikse de problemer de har med deres app. Jeg udvælger to grupper der skal præsentere deres plan kl 10:15
 3. Fork projektet og lav de ændringer der skal til for at appen følger Clean Architecture tankegangen
 4. Kl 11:20 vælger jeg to grupper der skal præsentere deres ændringer
 5. Michael sagde at hvis der var tid må i gerne tilføje en feature så man kan se antal elementer man har tilbage i listen (dem der ikke er krydset ud)
