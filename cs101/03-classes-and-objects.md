@@ -23,10 +23,12 @@
 - Model Smartphone
   - Getter setter
     - Var, val
+    - Price cannot be less than 0
+    - priceInEuros attribute
   - Constructor
   - Data vs behaviour
+  - toString
 - Classes are blueprints
-- 
 
 
 
@@ -40,15 +42,17 @@
 
 Optional
 
-- https://kotlinlang.org/docs/classes.html#class-members
-- https://kotlinlang.org/docs/properties.html
-- https://kotlinlang.org/docs/visibility-modifiers.html
+- [https://kotlinlang.org/docs/classes.html#class-members](https://kotlinlang.org/docs/classes.html#class-members)
+- [https://kotlinlang.org/docs/properties.html](https://kotlinlang.org/docs/properties.html)
+- [https://kotlinlang.org/docs/visibility-modifiers.html](https://kotlinlang.org/docs/visibility-modifiers.html)
 
 
+
+<!--
 
 ## Peer instruction
 
-<!--
+
 
 ### Question 1
 
