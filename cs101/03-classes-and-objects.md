@@ -172,8 +172,6 @@ Optional
 
 
 
-<!--
-
 ## Peer instruction
 
 
@@ -222,8 +220,6 @@ What is the output of the above code when executed?
 3. 1
 4. Null
 5. Compiler error
-
--->
 
 
 
