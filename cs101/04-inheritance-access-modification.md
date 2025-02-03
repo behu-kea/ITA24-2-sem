@@ -217,8 +217,6 @@ class Dog : Animal() {
 }
 ```
 
-
-
 This calls the parent class method and then adds the subclass-specific functionality.
 
 
@@ -319,7 +317,7 @@ fun main() {
 
 ### Opgave 1 - level 2
 
-Write a class called `Animal` An `animal` has 3 properties:
+Write a class called `Animal`. An `animal` has 3 properties:
 
 - `name`
 - `nrOfLegs`
