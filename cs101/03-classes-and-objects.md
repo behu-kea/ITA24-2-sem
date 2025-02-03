@@ -16,9 +16,24 @@
 
 
 
+<!--
+
+## In class considerations
+
+- Det var lidt meget med også feedback på opgaver. 
+- Mike sagde at videoerne var ret svære
+- Getter og setter blev lidt messy. Måske ikke undervise det næste gang. 
+- This var også sådan lidt semi. Behøves vi undervise det?
+
+-->
+
+
+
 ## Overview
 
 - Hvornår vil i gerne have at Ane er tilgængelig udenfor klassen?
+
+  - 12:30 - 14:30
 
 - Peer instruction
 
@@ -30,10 +45,10 @@
   - Constructor
   - Data vs behaviour
   - toString
-  
+
 - Classes are blueprints
 
-- Aflevering feedback.
+- Aflevering feedback
 
   - Overordnet ser det rigtig godt ud. I har generelt god struktur! Rigtig godt styr på funktioner! Der er en del der har mærkelig git struktur. Snak lige med mig idag hvis du har problemer
 
@@ -61,7 +76,7 @@
           return "$a.$b $c"
       }
       ```
-  
+
   - Lav en funktion. Kan enten laves som if else. Eller return quickly
 
     - ```kotlin
@@ -76,7 +91,7 @@
           }
       }
       ```
-  
+
   - Læsbarhed: `if (number.length == 10 && number.substring(0,2).toInt() <= 31 && number.substring(2,4).toInt() <= 12) {`
 
   - Tænk funtktioner
@@ -101,7 +116,7 @@
               }
           }
       ```
-  
+
   - Fed løsningen:
 
     - ```kotlin
@@ -117,7 +132,7 @@
       }
       }
       ```
-  
+
   - Ansvar!
 
     - ```kotlin
@@ -140,7 +155,7 @@
           println(calculateGrade(gradeNum))
       }
       ```
-  
+
   - Så smukt 🥹
     ```kotlin
     fun validCpr(cpr: String): Boolean {
@@ -150,7 +165,7 @@
                 cpr.substring(2,4).toInt() in 1..12
     }
     ```
-  
+
     
 
 
@@ -500,14 +515,14 @@ In the main method, create an instance of `Pokeball` and generate several `Pokem
 
 Create classes for a todolist app. 
 
-- `Todoitem`
+- `TodoItem`
   - Has a name, can be checked out, and can be favorited
-- `Todolist` is a list that holds `Todoitems`
-  - `Todoitems` can be removed and added from the list
-  - The `Todolist` should also be able to display the `Todoitems`
+- `TodoList` is a list that holds `TodoItems`
+  - `TodoItems` can be removed and added from the list
+  - The `TodoList` should also be able to display the `TodoItems`
 
 Create a menu where a user can
 
-- Create a `Todoitem`
-- Check out a `Todoitem`
-- Remove a `Todoitem`
+- Create a `TodoItem`
+- Check out a `TodoItem`
+- Remove a `TodoItem`
