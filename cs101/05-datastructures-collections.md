@@ -31,6 +31,14 @@
 
 
 
+### Pre-exercise
+
+Using the code from your handed in assignment. Present the code for your study mate. Talk about the code technically. What is it doing and why did you do it that way?
+
+Hvis i ikke har fået lavet opgaven, så få ChatGPT til at lave løsningen for en af opgaverne og snak om det.
+
+
+
 ### Opgave 1
 
 **Case 1: Sorted City Names for a Travel Agency**
@@ -62,7 +70,7 @@
 
 
 
-### Opagve 2 - level 1
+### Opgave 2 - level 1
 
 - Write a basic dictionary using a HashMap.
 - The keys will represent words and the values will be descriptions of the words

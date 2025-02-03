@@ -493,7 +493,7 @@ Instantiate at least one object per class
 
 4. Skriv en metode der hedder `toggleLight`, som tænder lampen hvis den er slukket, og slukker lampen hvis den er tændt. 
 
-5. Lav en klasse `Room` med en main-metode hvor du instantierer forskellige lampeobjekter (skrivebordslampe, sengelampe el. lign.) og tester om de virker som de skal
+5. Lav en klasse `Room` med en metode hvor du instantierer forskellige lampeobjekter (skrivebordslampe, sengelampe el. lign.) og tester om de virker som de skal
 
 7. Lav en metode der returnerer antal gange lampen er togglet.
 
