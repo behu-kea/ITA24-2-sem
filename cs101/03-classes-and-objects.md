@@ -50,8 +50,6 @@
     }
     ```
 
-    
-
   - Variabelnavne
 
     - ```kotlin
@@ -63,8 +61,8 @@
           return "$a.$b $c"
       }
       ```
-
-  - Lav en funktion
+  
+  - Lav en funktion. Kan enten laves som if else. Eller return quickly
 
     - ```kotlin
       fun main() {
@@ -78,7 +76,7 @@
           }
       }
       ```
-
+  
   - Læsbarhed: `if (number.length == 10 && number.substring(0,2).toInt() <= 31 && number.substring(2,4).toInt() <= 12) {`
 
   - Tænk funtktioner
@@ -103,7 +101,7 @@
               }
           }
       ```
-
+  
   - Fed løsningen:
 
     - ```kotlin
@@ -119,7 +117,7 @@
       }
       }
       ```
-
+  
   - Ansvar!
 
     - ```kotlin
@@ -142,7 +140,7 @@
           println(calculateGrade(gradeNum))
       }
       ```
-
+  
   - Så smukt 🥹
     ```kotlin
     fun validCpr(cpr: String): Boolean {
@@ -152,7 +150,7 @@
                 cpr.substring(2,4).toInt() in 1..12
     }
     ```
-
+  
     
 
 
