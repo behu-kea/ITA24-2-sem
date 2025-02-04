@@ -159,120 +159,95 @@ when (x) {
 
 
 
-## Now i understand
+## Sorting and searching
 
 
 
-### Range
+### Sorting
 
-ranges of value
+- Nævn nogle almindelige sorteringsalgoritmer, og beskriv deres tidskompleksitet.
 
-The `for` loop iterates through anything that provides an iterator. 
-
-```kotlin
-for (i in 4 downTo 1) print(i)
-
-// Closed-ended range
-println(4 in 1..4)
-// true
-
-// Open-ended range
-println(4 in 1..<4)
-// false
-
-for (i in 0..<8 step 2) print(i)
-```
+- Forklar, hvordan en **QuickSort** fungerer, og analyser dens tidskompleksitet i bedste og værste tilfælde.
+- Hvordan fungerer MergeSort, og hvorfor er den mere effektiv end BubbleSort?
+- Hvorfor bruges ofte **Heapsort** eller **Quicksort** i praksis frem for BubbleSort eller InsertionSort?
+- Hvordan kan man forbedre en simpel sorteringsalgoritme som BubbleSort?
+- Hvorfor bruger man ikke altid **Counting Sort** selvom den har O(n) kompleksitet?
+- Hvilke sorteringsalgoritmer er rekursive, og hvilke er iterative?
 
 
 
-### Filter and map
-
-**Map**
-
-```kotlin
-println(cars.map { value -> value + "a" })
-println(cars.map { it + "a" })
-```
-
-
-
-**Filter**
-
-```kotlin
-val numbers = listOf("one", "two", "three", "four")
-val longerThan3 = numbers.filter { it.length > 3 }
-```
+- What does it mean for a sorting algorithm to be “stable”?
+- In Big-O notation, how would you compare the average and worst-case time complexities of MergeSort, QuickSort, and BubbleSort?
+- Can you describe the merge process in MergeSort? How does merging sorted sublists work?
+- How do Insertion Sort and Selection Sort differ in terms of their approach and performance characteristics?
+- How do the space requirements compare for MergeSort, QuickSort (using in-place partitioning), and Counting Sort?
 
 
 
 
 
-```kotlin
-package com.example.kotlin_learning
-
-
-class Rectangle (val height: Double, val width: Double ) {
-    val area: Double
-        get() = this.width * this.height
-
-    var test = 0
-        set(value) { field = 30};
-}
+Merge sort, quickSSort and bubblesort
 
 
 
-fun main() {
-    println("Hello, Kotlin!")
-    println(23)
-    println(addTwoNumbers(3.0, 8.0));
+### BubbleSort
 
-    val a = 4;
-    println(a);
+Most popular. Switches place if two elements are in the wrong order. 
 
-    var b = 0;
-    b = 10;
-
-
-    println(9..10);
-    for (i in 0..5) {
-        println(i) // 0,1,2,3,4,5   --> upto 5
-    }
-
-    val name: String = "ben"
-    println(name.get(2))
-
-    println("${name}.length is ${name.length}")
-
-    val cars = arrayOf("asd", "asdasd");
-    val secondCar = cars.get(1);
-    println(secondCar);
-    cars[0] = "ben"
-    println(cars.get(0))
-
-    val i = 10;
-    println(5 in 1..i)
-
-    println(cars.map { value -> value + "a" })
-    println(cars.map { it + "a" })
-
-    val numbers = listOf("one", "two", "three", "four")
-    val longerThan3 = numbers.filter { it.length > 3 }
-
-    val rectangle = Rectangle(4.3, 7.0);
-    println(rectangle.area);
-    rectangle.test = 10;
-    println(rectangle.test);
-    rectangle.test = 10;
-    println(rectangle.test)
-
-}
-
-fun addTwoNumbers(a: Double, b: Double): Double {
-    return a + b;
-}
-
-
-```
+Has  O(n<sup>2</sup>)  time complexity worst. O(n) best 
 
 
 
+### Selection Sort
+
+For each position in the list: Finds the smallest value and swaps it to the current position of the array. 
+
+Selection sort works by finding the minimum element in an unsorted  portion of the array and placing it at the beginning, then repeating  this for the remaining elements.
+
+
+
+#### Time complexity
+
+We have to first find the smallest element for the first position O(n). But we have to do it for all positions in the array O(n<sup>2</sup>) 
+
+
+
+### Insertion sort
+
+[Good explanation](https://www.youtube.com/watch?v=O0VbBkUvriI&t=41s)
+
+Insertion sort is a simple sorting algorithm that works by iteratively inserting each element of an unsorted list into its correct position in a sorted portion of the list. It is like sorting playing cards in your hands.
+
+![Insertion-sorting](assets/Insertion-sorting.png)
+
+We only have to move forward in the array. 
+
+We move specific portions of the array over in order to put the newest unsorted array into the correct position in the array. 
+
+
+
+#### Time complexity
+
+O(n<sup>2</sup>) worst. We have to go through each element in the list. But wa also have to shift all the elements in the sorted position.
+
+
+
+Best O(n). If all elements are sorted. We only have to run through the array. 
+
+
+
+### MergeSort
+
+Divide and conquer
+
+
+
+
+
+### QuickSort
+
+
+
+
+
+### 

@@ -36,11 +36,39 @@ Altså:
 
 - Big O
 - Sortering af lister
-- Søgning af lister
+- Søgning i lister
   - Iterativ søgning
   - Binær søgning
 
-*De andre emner har vi nemlig haft om*
+
+
+Eksamensspørgsmål i kan forvente af få:
+
+Big O
+
+- Forklar begrebet Big O notation, og hvorfor det er vigtigt i algoritmeanalyse.
+- Hvordan defineres O(1), O(n), O(log n), O(n²), og hvornår støder vi på dem i praksis?
+- Giv et eksempel på en algoritme med O(log n) kompleksitet, og forklar hvorfor den har denne kompleksitet.
+- Hvordan kan vi bruge Big O notation til at forudsige, hvordan en algoritme skalerer med stigende inputstørrelse?
+- Kan du finde noget kode du har skrevet og vurdere Big O tidskompleksiteten for koden?
+
+
+
+Sortering
+
+- Nævn nogle almindelige sorteringsalgoritmer. Beskriv deres tidskompleksitet,  hvordan de virker og hvornår man ville bruge dem
+
+
+
+Søgning
+
+- Hvordan fungerer lineær søgning (iterativ søgning), og hvad er dens tidskompleksitet?
+- Hvornår er lineær søgning den bedste metode at bruge?
+- Hvordan fungerer binær søgning, og hvorfor er den hurtigere end lineær søgning på sorterede lister?
+- Hvilke forudsætninger skal være opfyldt for at kunne bruge binær søgning?
+- Hvad er tidskompleksiteten for binær søgning, og hvordan udledes den?
+
+
 
 
 
