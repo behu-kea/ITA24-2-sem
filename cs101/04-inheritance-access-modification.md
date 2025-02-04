@@ -15,10 +15,73 @@
 
 - Talk about 4 pillars of OOP. With code examples
   -  Online shopping system
+    - Order - orderId, productName, price
+    - PhysicalOrder - shippingAddress
+    - DigitalOrder - email
+
   - **Abstraction** - Abstraction means abstracting away certain details. `hitApi('www.kealanparr.com', HTTPMethod.Get)`This function we dont need to know how it is implemented because we know how to work with it
   - **Encapsulation** - The action of enclosing something in or as if in a capsule. Removing access to parts of your code and making things private is exactly what **Encapsulation** is all about 
   - **Inheritance** - Inheritance is a fundamental concept in object-oriented programming  where a new class (subclass) can inherit properties and behaviors from  an existing class (superclass). This allows for code reusability and promotes organization
   - **Polymorphism** - The condition of occurring in several different forms. More concretely an object will behave differently based on the context it is called from
+
+
+<!--
+
+```
+package com.example.inheritance
+
+open class Order (private val orderId: String, val productName: String, val price: Float) {
+    open fun processOrder() {
+        println("Sending $productName. OrderId is $orderId")
+    }
+
+    fun getDiscountedPrice(): Float {
+        return price * 0.8f;
+    }
+}
+```
+
+
+
+```
+package com.example.inheritance
+
+class PhysicalOrder (orderId: String, productName: String, price: Float, customerName: String, var shippingAdress: String): Order(orderId, productName, price) {
+    override fun processOrder() {
+        println("We are sending your order to this adress: $shippingAdress")
+    }
+}
+```
+
+
+
+```
+package com.example.inheritance
+
+class DigitalOrder (orderId: String, productName: String, price: Float, customerName: String, var email: String): Order(orderId, productName, price) {
+    override fun processOrder() {
+        println("We are sending your order to this email: $email")
+    }
+}
+```
+
+
+
+```
+package com.example.inheritance
+
+fun main() {
+    val samsungTelevision = PhysicalOrder("asd", "samtele", 2000f, "Benjamin Hughes", "langdyss")
+    samsungTelevision.processOrder()
+
+    val harryPotterEbbok = DigitalOrder("asd", "harrypot", 200f, "Benjamin Hughes", "benjamin@asd.dk")
+    harryPotterEbbok.processOrder()
+}
+```
+
+-->
+
+
 
 - Talk about inheritance vs composition: [https://chatgpt.com/share/678f9586-9ff4-8008-b4b7-ddd8f161f6b0](https://chatgpt.com/share/678f9586-9ff4-8008-b4b7-ddd8f161f6b0)
 
@@ -28,8 +91,6 @@
 
 - [Fundamental Concepts of Object Oriented Programming](https://www.youtube.com/watch?v=m_MQYyJpIjg)
 - [Learn Kotlin for Android: Inheritance (Lesson 17)](https://www.youtube.com/watch?v=33DNMPOFvuA)
-- [Learn Kotlin for Android: Getters & Setters ( Lesson 16)](https://www.youtube.com/watch?v=tOCXISsfgUg)
-- [Learn Kotlin for Android: Interfaces (Lesson 20)](https://www.youtube.com/watch?v=RctW18zpgec)
 
 
 
