@@ -96,7 +96,7 @@ fun main() {
 
 
 
-<!--
+
 
 ## Peer instruction
 
@@ -130,18 +130,6 @@ fun main() {
 
 
 
-### Question 2
-
-What access modifier is used to ensure a property can be accessed only within the same file?
-
-1. `private`
-2. `internal`
-3. `protected`
-4. `file`
-5. None of the above
-
-
-
 ### Question 3
 
 What will the following code print?
@@ -167,7 +155,7 @@ fun main() {
 4. Compilation error due to invalid setter
 5. None of the above
 
--->
+
 
 
 
