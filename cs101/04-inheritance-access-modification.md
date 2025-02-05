@@ -19,10 +19,19 @@
     - PhysicalOrder - shippingAddress
     - DigitalOrder - email
 
-  - **Abstraction** - Abstraction means abstracting away certain details. `hitApi('www.kealanparr.com', HTTPMethod.Get)`This function we dont need to know how it is implemented because we know how to work with it
-  - **Encapsulation** - The action of enclosing something in or as if in a capsule. Removing access to parts of your code and making things private is exactly what **Encapsulation** is all about 
-  - **Inheritance** - Inheritance is a fundamental concept in object-oriented programming  where a new class (subclass) can inherit properties and behaviors from  an existing class (superclass). This allows for code reusability and promotes organization
-  - **Polymorphism** - The condition of occurring in several different forms. More concretely an object will behave differently based on the context it is called from
+  -  Survival MMO
+    -  Survivor - name. fightZombies
+    
+    -  TheLeader - name, bravery, motivateTeam(), is secretelyTerrified
+  
+    -  TheMedic - numberOfMedKits, healSurvivor()
+    
+    -  TheGuyWhoAlwaysDiesFirst, tripchance, sayLastWords() <- Lad os spørge chatGPT
+    
+  -  **Abstraction** - Abstraction means abstracting away certain details. `hitApi('www.kealanparr.com', HTTPMethod.Get)`This function we dont need to know how it is implemented because we know how to work with it
+  -  **Encapsulation** - The action of enclosing something in or as if in a capsule. Removing access to parts of your code and making things private is exactly what **Encapsulation** is all about 
+  -  **Inheritance** - Inheritance is a fundamental concept in object-oriented programming  where a new class (subclass) can inherit properties and behaviors from  an existing class (superclass). This allows for code reusability and promotes organization
+  -  **Polymorphism** - The condition of occurring in several different forms. More concretely an object will behave differently based on the context it is called from
 
 
 <!--
@@ -81,9 +90,7 @@ fun main() {
 
 -->
 
-
-
-- Talk about inheritance vs composition: [https://chatgpt.com/share/678f9586-9ff4-8008-b4b7-ddd8f161f6b0](https://chatgpt.com/share/678f9586-9ff4-8008-b4b7-ddd8f161f6b0)
+- Snakke om på mandag. Selvlæring
 
 
 
