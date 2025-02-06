@@ -11,6 +11,16 @@
 
 
 
+<!--
+
+## In class considerations
+
+- Exercises missed encapsulation
+
+-->
+
+
+
 ## Overview
 
 - Talk about 4 pillars of OOP. With code examples
@@ -29,61 +39,6 @@
   -  **Polymorphism** - The condition of occurring in several different forms. More concretely an object will behave differently based on the context it is called from
 
 
-<!--
-
-```
-package com.example.inheritance
-
-open class Order (private val orderId: String, val productName: String, val price: Float) {
-    open fun processOrder() {
-        println("Sending $productName. OrderId is $orderId")
-    }
-
-    fun getDiscountedPrice(): Float {
-        return price * 0.8f;
-    }
-}
-```
-
-
-
-```
-package com.example.inheritance
-
-class PhysicalOrder (orderId: String, productName: String, price: Float, customerName: String, var shippingAdress: String): Order(orderId, productName, price) {
-    override fun processOrder() {
-        println("We are sending your order to this adress: $shippingAdress")
-    }
-}
-```
-
-
-
-```
-package com.example.inheritance
-
-class DigitalOrder (orderId: String, productName: String, price: Float, customerName: String, var email: String): Order(orderId, productName, price) {
-    override fun processOrder() {
-        println("We are sending your order to this email: $email")
-    }
-}
-```
-
-
-
-```
-package com.example.inheritance
-
-fun main() {
-    val samsungTelevision = PhysicalOrder("asd", "samtele", 2000f, "Benjamin Hughes", "langdyss")
-    samsungTelevision.processOrder()
-
-    val harryPotterEbbok = DigitalOrder("asd", "harrypot", 200f, "Benjamin Hughes", "benjamin@asd.dk")
-    harryPotterEbbok.processOrder()
-}
-```
-
--->
 
 - Snakke om på mandag. Selvlæring
 
@@ -380,8 +335,7 @@ Write a class called `Animal`. An `animal` has 3 properties:
 - `nrOfLegs`
 - `isMammal`
 
-Animal has a method: `makeSound()` that prints the sound of the an-
-imal.
+Animal has a method: `makeSound()` that prints the sound of the animal.
 
 - Create 2 animal classes that extends the Animal class and overrides
   the method to produce their unique sound.

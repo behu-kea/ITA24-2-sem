@@ -8,6 +8,10 @@ I skal selv vurdere hvordan i mest effektivt lærer punkterne herunder. Jeg er d
 
 
 
+**I skal arbejde i jeres studiegrupper. Hvis i ikke kommer skal i give jeres studiegruppe besked**
+
+
+
 ## Emnerne i skal lære:
 
 Fra studieordningen der er lidt fluffy:

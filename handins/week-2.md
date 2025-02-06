@@ -37,7 +37,7 @@ In the main method create a `Laptop` and a `SmartPhone`
 
 ### 3.
 
-Create a base class `Product` with attributes like `name`, `price`, and `quantity `and a function `identifyProductCategory`. Subclass it to create specific product types like `Shoe`, `T-shirt`, and `Book`. Override the function such that: 
+Create a base class `Product` with attributes like `name`, `price`, and `quantity` and a function `identifyProductCategory`. Subclass it to create specific product types like `Shoe`, `T-shirt`, and `Book`. Override the function such that: 
 
 - The shoe outputs "I am a shoe"  .
 - The T-shirt outputs "I am a T-shirt"
@@ -47,7 +47,13 @@ Create a base class `Product` with attributes like `name`, `price`, and `quantit
 
 ### 4.
 
-Create 3 classes Circle, Rectangle & Triangle with a parent class: Shape.
+Get an LLM (ChatGPT, Deepseek, etc) to solve the following exercise two times. One as a junior developer, one as a senior developer. 
+
+Describe the differences in the the two solutions. What solution do you prefer? Are there concepts you dont understand. If so learn them and explain them. 
+
+
+
+Create 2 classes Circle & Triangle with a parent class: Shape.
 
 - Every shape has two attributes
   -  `color` 
@@ -55,7 +61,7 @@ Create 3 classes Circle, Rectangle & Triangle with a parent class: Shape.
 - Furthermore every class has private attributes to calculate perimeter and area for each shape.
 - E.g. a Rectangle has the attributes: `height`, `width`, `color` & `isTransparent`
   - The attributes are set in the constructor
-- The 3 classes all overrides the following abstract methods from their parent class:
+- The 2 classes all overrides the following abstract methods from their parent class:
   - `calculatePermeter`
   - `calculateArea`
 
