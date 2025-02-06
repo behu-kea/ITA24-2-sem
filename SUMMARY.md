@@ -10,8 +10,8 @@
   *  [05 - Algorithms & searching & sorting & big O](cs101/06-algorithms-searching-sorting-big-o.md)
   *  [06 - Algorithms & searching & sorting & big O](cs101/06-algorithms-searching-sorting-big-o.md)
   *  [07 - Datastructures & collections](cs101/05-datastructures-collections.md)
-  *  [08 - Recap](cs101/07-recap.md)
-  *  [09 - Test](cs101/08-test.md)
+  *  [08 - Test](cs101/08-test.md)
+  *  [09 - Recap](cs101/07-recap.md)
 * Applikationsudvikling
 
   * [01 - Basic layout & Android Studio](applikationsudvikling/01-basic-layout.md)
@@ -23,9 +23,9 @@
   * [07 - Concurrency & Retrofit in Android](applikationsudvikling/07-concurrency-retrofit-android.md)
   * [08 - Github & branching & Readme & recap](applikationsudvikling/08-github-branching-readme-recap.md) 
   * [09 - Firebase Cloud Firestore](applikationsudvikling/09-firebase-cloud-firestore.md)
-  * [10 - Working with sensors](applikationsudvikling/10-sensors.md)
-  *  [11 - Shape kommer forbi](applikationsudvikling/11-shape.md)
-  * [12 - Testing](applikationsudvikling/12-testing.md)
+  * [10 - Testing](applikationsudvikling/12-testing.md)
+  * [11 - Shape kommer forbi](applikationsudvikling/11-shape.md)
+  * [12 - Working with sensors](applikationsudvikling/10-sensors.md)
   * [13 - Android recap](applikationsudvikling/13-android-recap.md)
 
 
