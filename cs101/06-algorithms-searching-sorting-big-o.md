@@ -8,7 +8,7 @@ I skal selv vurdere hvordan i mest effektivt lærer punkterne herunder. Jeg er d
 
 
 
-**I skal arbejde i jeres studiegrupper. Hvis i ikke kommer skal i give jeres studiegruppe besked**
+**I skal arbejde i jeres studiegrupper. Hvis i ikke kommer skal i give jeres studiegruppe besked!**
 
 
 
@@ -145,13 +145,13 @@ Ud af det her skal i lave en læringsplan:
 - Hvad lærte i af det? 
 - Hvad fungerede godt?
 - Hvad fungerede mindre godt?
-- Hvad skal i lave imorgen? 
+- Hvad skal i lave imorgen?
   - Har i givet hinanden hjemmearbejde?
   - Skal i forberede noget til imorgen?
 
 
 
-### Fælles på klassen
+### Fælles på klassen - 11:30 - 11:45
 
 - Hvilken refleksion havde i i grupperne?
 - Hvad skal i lave imorgen? 
@@ -214,6 +214,7 @@ Her er en liste over forskellige læringsteknikker i har prøvet før og deres p
 **Ulemper**
 
 - One size fits all, man kan spilde tid, da nogle studerende måske allerede kan emnet man underviser
+- Underviser har typisk lært stoffet for lang tid siden og kan have svært ved at se det svære i stoffet. 
 - Der skal være en "ekspert" der kan køre undervisningen
 
 
@@ -222,7 +223,7 @@ Her er en liste over forskellige læringsteknikker i har prøvet før og deres p
 
 **Fordele**
 
-- Studerende bliver vist hvordan man kan programmerer et emne. 
+- Studerende bliver vist hvordan man kan programmerer et emne
 - Man ser syntaksen, fejlene, genvejene når en underviser livekoder
 
 
@@ -249,7 +250,7 @@ Her er en liste over forskellige læringsteknikker i har prøvet før og deres p
 
 - Studerende kan løse opgaver med ChatGPT og derved undgå selve læringen
 - Kan føre til frustrationer
-- Hvis opgaven ikke er godt stillet kan der være forvirring omkring hvad man skal
+- Hvis opgaven ikke er godt stillet kan der være forvirring omkring hvad den studerende skal
 - Det kan være svært at ramme det rigtige niveau mellem nemt og svært
 - Kan blive afkoblet fra virkeligheden
 
@@ -266,8 +267,9 @@ Her er en liste over forskellige læringsteknikker i har prøvet før og deres p
 
 **Ulemper**
 
-- Man skal sikre sig at niveauet mellem to er nogenlunde det samme
+- Man skal sikre sig at niveauet mellem de to udviklere er nogenlunde det samme
 - Man skal sikre sig at alle får tid ved keyboardet
+- Den dygtige studerende kan komme til at overtage programmeringen og derved kan den svage undgå læringen
 
 
 
@@ -317,4 +319,4 @@ Ulemper
 
 - Kan være svær at bruge hvis man ikke har brugt LLM'er før
 - Kan hallucinere, så den studerende lærer ting der er forkerte
-- Kan løse den studerendes opgaver. Den studerende kan få en falsk fornemmelse af at de kan noget, de faktisk ikke kan
+- Kan løse den studerendes opgaver. Den studerende kan få en falsk fornemmelse af at de har nogle kompetencer de faktisk ikke har
