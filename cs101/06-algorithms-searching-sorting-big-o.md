@@ -32,7 +32,7 @@ Fra studieordningen der er lidt fluffy:
 Fra fagaftalen som er en konkretisering af Studieordningen. Det er **konkret** det her i skal lære. 
 
 - Derudover introduceres algoritmer og datastrukturer: Abstrakte datastrukturer, Set, Map, List, hashing, sortering, filtrering og iterativ samt binær søgning. 
-- Identificere forskelle på basale sortering- og søgealgoritmer, deres tidskompleksitet og vurdere sammenhæng med vækstbetingelser (Big O). 
+- Identificere forskelle på basale sortering- og søgealgoritmer, deres tidskompleksitet og vurdere sammenhæng med vækstbetingelser (Big O)
 
 
 
@@ -50,7 +50,7 @@ Eksamensspørgsmål i kan forvente af få:
 
 Big O
 
-- Forklar begrebet Big O notation, og hvorfor det er vigtigt i algoritmeanalyse.
+- Forklar begrebet Big O notation, og hvorfor det er vigtigt i algoritmeanalyse
 - Hvordan defineres O(1), O(n), O(log n), O(n²), og hvornår støder vi på dem i praksis?
 - Giv et eksempel på en algoritme med O(log n) kompleksitet, og forklar hvorfor den har denne kompleksitet.
 - Hvordan kan vi bruge Big O notation til at forudsige, hvordan en algoritme skalerer med stigende inputstørrelse?
@@ -60,7 +60,13 @@ Big O
 
 Sortering
 
-- Nævn nogle almindelige sorteringsalgoritmer. Beskriv deres tidskompleksitet,  hvordan de virker og hvornår man ville bruge dem
+- Nævn nogle almindelige sorteringsalgoritmer. Beskriv deres tidskompleksitet, hvordan de virker og hvornår man ville bruge dem. Her er nogle sorteringsalgoritmer
+  - Bubble sort
+  - Selection sort
+  - Insertion sort
+  - Merge sort
+  - Quick sort
+
 
 
 
@@ -71,8 +77,6 @@ Søgning
 - Hvordan fungerer binær søgning, og hvorfor er den hurtigere end lineær søgning på sorterede lister?
 - Hvilke forudsætninger skal være opfyldt for at kunne bruge binær søgning?
 - Hvad er tidskompleksiteten for binær søgning, og hvordan udledes den?
-
-
 
 
 
