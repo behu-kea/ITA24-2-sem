@@ -80,6 +80,10 @@ Søgning
 
 
 
+Vis at man kan snakke med ChatGPT om det her. 
+
+
+
 *Check out [https://visualgo.net/](https://visualgo.net/)*
 
 
