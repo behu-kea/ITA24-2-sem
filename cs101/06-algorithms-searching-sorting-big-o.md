@@ -82,6 +82,12 @@ Søgning
 
 Vis at man kan snakke med ChatGPT om det her. 
 
+- https://chatgpt.com/c/67a48729-3b1c-8008-83ca-dedfaa092c96
+- https://chatgpt.com/c/67a489bb-4e04-8008-b44c-44a4326642d9
+- https://chatgpt.com/c/67a21569-cb70-8008-b263-2406ab7a3daa
+- https://chatgpt.com/c/67a1feaf-9810-8008-861e-0020880baaf6
+- https://chatgpt.com/c/67a1fac2-1b6c-8008-89df-8c617f7ee952
+
 
 
 *Check out [https://visualgo.net/](https://visualgo.net/)*
@@ -114,7 +120,7 @@ Først skal i finde ud af hvilke emner i vil fokusere på? Hvad vil i specifikt 
 
 
 
-Find ud af hvordan i tester at i har den viden der skal til. Skal i kunne løse opgaver, svare på spørgsmål, gennemføre en quiz, vurdere forskellig situationer? Kan i allerede nu lave de ting i skal kunne når i er færdige? Måske kan i finde noget online eller spørge [chatten](https://chatgpt.com/share/675ac19d-69d0-8008-ae59-76f577ce63f0).
+Find ud af hvordan i tester at i har den viden der skal til. Skal i kunne løse opgaver, svare på spørgsmål, gennemføre en quiz, vurdere forskellig situationer? Kan i allerede nu lave de ting i skal kunne når i er færdige? Måske kan i finde noget online eller spørge [chatten](https://chatgpt.com/share/675ac19d-69d0-8008-ae59-76f577ce63f0)
 
 Ud af det her skal i lave en læringsplan:
 
@@ -148,7 +154,7 @@ Ud af det her skal i lave en læringsplan:
 
 
 
-### Refleksion - 11:15 - 11:30
+### Refleksion i gruppen - 11:15 - 11:30
 
 - Hvad lærte i af det? 
 - Hvad fungerede godt?
