@@ -130,7 +130,7 @@ Vis at man kan snakke med ChatGPT om det her.
 
   ```kotlin
   fun countCameras() {
-      println("Your smartphone has $cameraCount cameras. HOLY FUCKING SHIT!! sorry.")
+      println("There are $cameraCount cameras. ")
   }
   ```
 
