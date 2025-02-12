@@ -17,6 +17,8 @@ Create 5 articles, add them into an ArrayList and print them by overriding the *
 
 
 
+<!--
+
 ### 2.
 
 Create an interface called `FastFood` (with appropriate methods) and create a `Sandwich` class, a `Pizza` class and a class you decide that implements the `FastFood` interface.
@@ -37,9 +39,11 @@ interface Vehicle {
 }
 ```
 
+-->
 
 
-### 4.
+
+### 2.
 
 Write a class: *RedditPost*
 
@@ -63,7 +67,7 @@ Implement functionality such that redditposts can be sorted by upvotes/downvotes
 
 
 
-### **4.5**
+### 3
 
 Write a class: *RedditFrontPage*
 
@@ -74,7 +78,7 @@ The RedditFrontPage has:
 
 
 
-### 5.
+### 4.
 
 Write a program that takes a list of words as input and prints the frequency of each word.
 
@@ -86,8 +90,6 @@ val words = listOf("apple", "banana", "apple", "orange", "banana", "apple", "ora
 
 
 
-### Advanced (Optional)
-
-### 6.
+### 5.
 
 Create a product inventory system where each product has a name and a quantity. Implement functions to add products, remove products, and display the current inventory.
