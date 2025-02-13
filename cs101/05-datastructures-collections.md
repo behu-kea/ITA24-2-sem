@@ -39,7 +39,7 @@ Hvis i ikke har fået lavet opgaven, så få ChatGPT til at lave løsningen for 
 
 
 
-### Opgave 1
+### Opgave 1 - del 1 - I studiegruppen - 20 min
 
 **Case 1: Sorted City Names for a Travel Agency**
 
@@ -70,6 +70,14 @@ Hvis i ikke har fået lavet opgaven, så få ChatGPT til at lave løsningen for 
 
 
 
+### Opgave 1 - del 2 - 10 min
+
+Gå sammen med en anden studiegruppe. I skal blive enige om hvilken datastruktur i vil bruge til opgaverne ovenfor
+
+Vi tager en fælles snak på klassen om hvilken datastruktur i har valgt
+
+
+
 ### Opgave 2 - level 1
 
 - Write a basic dictionary using a HashMap.
@@ -80,13 +88,14 @@ Hvis i ikke har fået lavet opgaven, så få ChatGPT til at lave løsningen for 
 
 ### Opgave 3 - level 2
 
-1. Create a HashMap named `spaceLog` to store entries in an astronaut's log. [The key will be the date of the entry](https://www.baeldung.com/kotlin/current-date-time), and the value will be a description of the events that occurred on that date (String).
-2. Implement the following functions for the space log:
+1. Create a class called `SpaceLog`
+2. The spacelog should have a `private` HashMap named `spaceLogEntries` to store entries in an astronaut's log. [The key will be the date of the entry](https://www.baeldung.com/kotlin/current-date-time), and the value will be a description of the events that occurred on that date (String).
+3. Implement the following functions for the space log:
    - `addLogEntry(date: LocalDate, entry: String)`: Adds a new entry to the log with the specified date and description.
    - `updateLogEntry(date: String, newEntry: String)`: Updates an existing log entry with a new description for the specified date.
    - `removeLogEntry(date: String)`: Removes an entry from the log for the specified date.
    - `viewLog()`: Displays all entries in the log, showing the date and corresponding description.
-3. Create a main function to test the functionality of the log:
+4. Create a main function to test the functionality of the `SpaceLog`:
    - Add several entries to the log using the `addLogEntry` function.
    - Update one of the entries using the `updateLogEntry` function.
    - Remove one of the entries using the `removeLogEntry` function.
@@ -98,7 +107,7 @@ Hvis i ikke har fået lavet opgaven, så få ChatGPT til at lave løsningen for 
 
 To solve the following exercises you need to understand how to [read text files](https://www.baeldung.com/kotlin/read-file)
 
-- We have users from 3 different platforms ([users-1, users-2, users-3](https://kea-fronter.itslearning.com/Resources?FolderID=1235819&PlayPlanDialogView=False&ReloadTree=False) 
+- We have users from 3 different platforms ([users-1, users-2, users-3](https://kea-fronter.itslearning.com/Folder/processfolder.aspx?FolderID=1360566)) Ligger på fronter
 - We want to know:
   - What users are identical across all platforms
   - What users are only specific to each platform.
