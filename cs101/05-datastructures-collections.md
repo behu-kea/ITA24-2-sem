@@ -92,8 +92,8 @@ Vi tager en fælles snak på klassen om hvilken datastruktur i har valgt
 2. The spacelog should have a `private` HashMap named `spaceLogEntries` to store entries in an astronaut's log. [The key will be the date of the entry](https://www.baeldung.com/kotlin/current-date-time), and the value will be a description of the events that occurred on that date (String).
 3. Implement the following functions for the space log:
    - `addLogEntry(date: LocalDate, entry: String)`: Adds a new entry to the log with the specified date and description.
-   - `updateLogEntry(date: String, newEntry: String)`: Updates an existing log entry with a new description for the specified date.
-   - `removeLogEntry(date: String)`: Removes an entry from the log for the specified date.
+   - `updateLogEntry(date: LocalDate, newEntry: String)`: Updates an existing log entry with a new description for the specified date.
+   - `removeLogEntry(date: LocalDate)`: Removes an entry from the log for the specified date.
    - `viewLog()`: Displays all entries in the log, showing the date and corresponding description.
 4. Create a main function to test the functionality of the `SpaceLog`:
    - Add several entries to the log using the `addLogEntry` function.
@@ -125,8 +125,6 @@ To solve the following exercises you need to understand how to [read text files]
 - Implement the comparable interface such that students can be sorted by age
   - Improve the solution such that if students are the same age, they are sorted by amount of subjects
   - I.E A student with the same age as another student is rated "higher" if the have more subjects
-
-
 
 <!--
 
