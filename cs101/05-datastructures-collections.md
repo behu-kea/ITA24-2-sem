@@ -2,9 +2,23 @@
 
 
 
-### Overview
+## Overview
 
 - Go through slides
+
+
+
+<!--
+
+## Afterclass consideration
+
+- Messy gang
+- Den første case var ikke specielt god. For svær. Den ligger heller ikke op til noget oplagt, men er ret svær. 
+- Jeg ved ikke helt hvor meget de lærer af at snakke med hinanden om deres kode
+- Slidsene var okay, men mangler noget implementation
+- Jeg rodede lidt rundt i det idag
+
+-->
 
 
 
