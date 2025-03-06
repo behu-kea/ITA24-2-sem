@@ -155,9 +155,9 @@ This code adds a button that when clicked navigates to the new activity
 
 
 
-## Indkøbsseddel
+## Password manager
 
-I skal lave en password manager. 
+I skal lave en password manager
 
 Det her er bare et eksempel. Lav gerne appen som i selv vil. Lavet via Ideogram
 
