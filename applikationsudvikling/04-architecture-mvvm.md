@@ -27,6 +27,7 @@
 
 ## Overview
 
+- Ane præsenterer noget omkring arkitektur
 - Benjamin viser slides og går igennem
   - Clean architecture
     
