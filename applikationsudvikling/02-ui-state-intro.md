@@ -182,7 +182,7 @@ onItemChecked:(Boolean) -> Unit
 
 A composable that uses `remember` to store an object creates internal state, making the composable *stateful*. 
 
-
+<!--
 
 ## Magisk lommeregner
 
@@ -329,7 +329,7 @@ Hvordan får brugeren indtastet telefonnummeret? Igen brainstorm og vælg den ne
 
 Kan du få lommeregneren til at ligne en rigtig lommeregner?
 
-
+-->
 
 <!--
 
