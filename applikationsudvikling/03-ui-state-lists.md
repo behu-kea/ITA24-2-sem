@@ -5,9 +5,9 @@
 ## Overview
 
 - Struktur
+- Snakke om eksamen. Snakke om IT-arkitektur.
 - Create a idea generator app
-  - Show the primary color theme! [https://m3.material.io/theme-builder#/custom](https://m3.material.io/theme-builder#/custom)
-  - logd
+  - `logd`
   - Mind mig om at uploade kode jeg skriver i klassen, jeg er dårlig til at huske det!
 - Work on app for today
 - Break at 10:00
@@ -16,6 +16,10 @@
 
 
 <!--
+
+Show the primary color theme! https://m3.material.io/theme-builder#/custom
+
+
 
 ## After class considerations
 
@@ -81,6 +85,14 @@ fun renderUsers(users: List<String>) {
 In Jetpack Compose, `mutableStateOf` is designed to trigger  recompositions when the state object itself changes (i.e., when a new object is assigned to it). However, mutating the contents of an object  (like adding an item to a `MutableList`) does not count as a state change in this context.
 
 To make a list that works with Compose's reactive system, use `mutableStateListOf` instead. This function is observable and will trigger recompositions when items are added, removed, or updated
+
+
+
+```kotlin
+var ideas: MutableList<String> by remember {
+    mutableStateOf(mutableStateListOf())
+}
+```
 
 
 
@@ -204,7 +216,7 @@ Lav en status tekst oppe i toppen der viser hvor mange passwords der er i listen
 
 
 
-### 5 - Tilføjelse af nye varer
+### 5 - Tilføjelse af nye passwords
 
 Lav et element der kan tage imod bruger input til titel og password og en knap. Når der bliver klikket på knappen skal det der står i input feltet tilføjes til listen du lavede i `2 - State`. 
 
@@ -220,7 +232,7 @@ Gør sådan at for hver vare, renderer du også en slet knap. Når det bliver kl
 
 ### 7 - Componentiser dit UI
 
-Lav komponenter (`@Composable`) for hvert komponent i dit interface. Husk at vi gerne vil holde komponenter stateless. Skal skal gøre vis state hoisting!
+Lav komponenter (`@Composable`) for hvert komponent i dit interface. Husk at vi gerne vil holde komponenter stateless. 
 
 
 
