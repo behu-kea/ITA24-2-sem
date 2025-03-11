@@ -5,9 +5,15 @@
 ## Overview
 
 - Struktur
-- Snakke om eksamen. Snakke om IT-arkitektur.
+- Snakke om eksamen. 
+- Snakke om IT-arkitektur.
+  - Planlægger designer og bygger it-systemer for virksomheder. Så de opfylder virksomhedsbehov. 
+
 - Create an idea generator app
   - `logd`
+- Password management
+  - 2 factor authentication
+
 - Work on app for today
 - Break at 10:00
 - 11:30 presenation of my solution
