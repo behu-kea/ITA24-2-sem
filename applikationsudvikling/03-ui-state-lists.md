@@ -4,7 +4,6 @@
 
 ## Overview
 
-- Struktur
 - Snakke om eksamen. 
 - Snakke om IT-arkitektur.
   - Planlægger designer og bygger it-systemer for virksomheder. Så de opfylder virksomhedsbehov. 
