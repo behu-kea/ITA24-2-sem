@@ -206,7 +206,7 @@ Tilføj nogle passwords til listen
 
 
 
-### 3 - Rendering af varerne
+### 3 - Rendering af passrowds
 
 Gør sådan at du kan se listen du lavede ovenover bliver renderet, så passwordsene kan ses på UI'et. Tænk her i `LazyColumn`. 
 
