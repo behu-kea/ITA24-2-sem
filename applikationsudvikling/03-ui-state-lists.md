@@ -6,9 +6,8 @@
 
 - Struktur
 - Snakke om eksamen. Snakke om IT-arkitektur.
-- Create a idea generator app
+- Create an idea generator app
   - `logd`
-  - Mind mig om at uploade kode jeg skriver i klassen, jeg er dårlig til at huske det!
 - Work on app for today
 - Break at 10:00
 - 11:30 presenation of my solution
