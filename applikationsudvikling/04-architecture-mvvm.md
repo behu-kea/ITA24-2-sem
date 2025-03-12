@@ -27,18 +27,18 @@
 
 ## Overview
 
-- Ane præsenterer noget omkring arkitektur
 - Benjamin viser slides og går igennem
   - Clean architecture
-    
+
   - MVVM
     - Hvad er de forskellige lag
-  
+
   - State hoisting
     - Hvordan kommer vi fra en stateful komponent over til en der er stateless?
   - Nævn at der er flere måder at håndtere state på
     - `mutableStateOf`
     - `MutableStateFlow`
+- Ane præsenterer noget omkring arkitektur
 
 
 
@@ -47,6 +47,34 @@
 
 
 ### Viewmodels
+
+### Installation
+
+First install the relevant libraries:
+
+To import the ViewModel library add this:
+
+```toml
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version = "2.6.2" }
+```
+
+To the `Gradle Scripts/libs.versions.toml` file under `[libraries]`
+
+
+
+Now in the `build.gradle.kts (module)` add this:
+
+```
+implementation(libs.androidx.lifecycle.viewmodel.compose)
+```
+
+to the `dependencies {` part!
+
+
+
+### Create a viewmodel class
+
+
 
 Initier dine viewmodels sådan her:
 
@@ -65,22 +93,9 @@ class MainActivity : ComponentActivity() {
 }
 ```
 
-To import the ViewModel library add this:
 
-```toml
-[libraries]
-androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version = "2.6.2" }
-```
 
-To the `libs.versions.toml` file
 
-Now in the `build.gradle.kts (module)` add this:
-
-```
-implementation(libs.androidx.lifecycle.viewmodel.compose)
-```
-
-to the `dependencies {` part!
 
 
 
@@ -100,90 +115,9 @@ to the `dependencies {` part!
 
 
 
-### Opgave 1
-
-For hver arkitektur skriv fordele og ulemper ved de forskellig approaches. De er lavet til en fiktiv todo app. Hvilken en ville i foretrække og hvorfor? Er der ulemper ved at gøre det på den her måde?
-
-
-
-**Arkitektur 1**
-
-```
-app/
-└── src/
-    └── main/
-        ├── java/
-        │   └── com/example/todoapp/
-        │       ├── data/
-        │       │   ├── model/
-        │       │   │   └── Todo.kt
-        │       │   ├── repository/
-        │       │   │   └── TodoRepository.kt
-        │       ├── ui/
-        │       │   ├── add/
-        │       │   │   ├── AddTodoFragment.kt
-        │       │   │   └── AddTodoViewModel.kt
-        │       │   ├── list/
-        │       │   │   ├── TodoListFragment.kt
-        │       │   │   ├── TodoListViewModel.kt
-        │       │   │   └── TodoAdapter.kt
-        │       │   └── main/
-        │       │       └── MainActivity.kt
-        │       ├── utils/
-        │       │   └── DateUtils.kt
-        │       ├── TodoApplication.kt
-        │       └── MainActivity.kt
-        └── res/
-            └── ... (resources)
-```
-
-
-
-**Arkitektur 2**
-
-```
-app/
-└── src/
-    └── main/
-        ├── java/
-        │   └── com/example/todoapp/
-        │       ├── data/
-        │       │   ├── model/
-        │       │   │   └── Todo.kt
-        │       │   ├── repository/
-        │       │   │   └── TodoRepository.kt
-        │       ├── ui/
-        │       │   ├── add/
-        │       │   │   └── AddTodoFragment.kt
-        │       │   ├── list/
-        │       │   │   ├── TodoListFragment.kt
-        │       │   │   └── TodoAdapter.kt
-        │       │   ├── main/
-        │       │       └── MainActivity.kt
-        │       ├── viewmodel/
-        │       │   ├── add/
-        │       │   │   └── AddTodoViewModel.kt
-        │       │   ├── list/
-        │       │   │   └── TodoListViewModel.kt
-        │       ├── utils/
-        │       │   └── DateUtils.kt
-        │       ├── TodoApplication.kt
-        │       └── MainActivity.kt
-        └── res/
-            └── ... (resources)
-```
-
-
-
-Add the following to your projects gradle file dependency: 
-
-```kotlin
-implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
-```
-
-
-
 ### Opgave 2 - Todo list app arkitektur
+
+Arbejd i studiegrupper!
 
 Vi er hyret ind som IT-konsulenter ved firmaet Todoist. De har promtet sig til en app som de er begyndt at sælge. De oplever desværre bare mange problemer med deres app. 
 
@@ -207,7 +141,14 @@ Appen ligger [her](https://github.com/behu-kea/note-app-mvvm) og der er desværr
 2. Læg en plan for hvordan i vil restrukturere appen. Lav en kort præsentation til Michael, der viser hvad det er i har tænkt jeg at gøre for a fikse de problemer de har med deres app. Jeg udvælger to grupper der skal præsentere deres plan kl 10:15
 3. Fork projektet og lav de ændringer der skal til for at appen følger Clean Architecture tankegangen
 4. Kl 11:20 vælger jeg to grupper der skal præsentere deres ændringer
-5. Michael sagde at hvis der var tid må i gerne tilføje en feature så man kan se antal elementer man har tilbage i listen (dem der ikke er krydset ud)
+5. Michael sagde at hvis der var tid må i gerne tilføje to features:
+   1. Man skal kunne slette et todo item
+   2.  Man kan se antal elementer man har tilbage i listen (dem der ikke er krydset ud)
+
+
+
+
+Michael sagde at Todoist bestyrelse var ret obs på at den ny genererede kode ikke var lavet af ChatGPT, da det jo var chatten der havde fået dem i det her rod til at begynde med
 
 
 
