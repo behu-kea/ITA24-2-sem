@@ -74,7 +74,31 @@ to the `dependencies {` part!
 
 ### Create a viewmodel class
 
+To create a viewmodel class we extend the Viewmodel class as shown here:
 
+```kotlin
+class ButtonViewmodel: ViewModel() {
+    var count by mutableStateOf(0)
+    var buttonText by mutableStateOf("")
+
+    fun onButtonClicked (){
+        val randomInt = Random.nextInt(1, 100)
+        if(randomInt <= 33) {
+            buttonText = "$randomInt is a small number"
+        } else if (randomInt <= 66) {
+            buttonText = "$randomInt is a medium number"
+        } else {
+            buttonText = "$randomInt is a large number"
+        }
+
+        count++
+    }
+}
+```
+
+
+
+### Creating a viewmodel object
 
 Initier dine viewmodels sådan her:
 
@@ -96,14 +120,6 @@ class MainActivity : ComponentActivity() {
 
 
 
-
-
-
-
-
-
-
-
 ## How to save state ChatGPT talk
 
 - [Should You Use Compose State or StateFlow in Your ViewModels?](https://www.youtube.com/watch?v=T8vApYJlW8o)
@@ -112,6 +128,15 @@ class MainActivity : ComponentActivity() {
 
 
 ## Exercises
+
+### Opgave 1 - Diskussion omkring forberedelse - 10 min
+
+I studiegruppen diskuter følgende:
+
+- Hvad er state hoisting og hvorfor gør vi det?
+- Hvad er MVVM
+
+
 
 
 
