@@ -35,4 +35,4 @@
   * [3](handins/week-3.md)
 *  [AI retningslinjer](ai-retningslinjer.md)
 *  [Kode fra klassen](https://github.com/behu-kea/ita24-2sem-code)
-*   [Typiske eksamensspørgsmål](typiske-eksamensspørgsmål.md)
+*   [Typiske eksamensspørgsmål](exam-questions.md) 
