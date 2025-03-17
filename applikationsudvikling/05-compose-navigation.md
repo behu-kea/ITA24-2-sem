@@ -25,7 +25,7 @@ Måske skal jeg lave en password manager her
 
 ## Overview
 
-- Vise løsningen på todo items
+- Vise løsningen på todo items: [https://github.com/behu-kea/note-app-mvvm/tree/solution/app/src/main/java/com/example/note_app_mvvm](https://github.com/behu-kea/note-app-mvvm/tree/solution/app/src/main/java/com/example/note_app_mvvm)
 - Small guided meditation through Medito
   - Quick intro to benefits from meditating
   - [https://meditofoundation.org/meditations/beginner-meditation-course](https://meditofoundation.org/meditations/beginner-meditation-course)
