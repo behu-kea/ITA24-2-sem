@@ -25,6 +25,7 @@ Måske skal jeg lave en password manager her
 
 ## Overview
 
+- Vise løsningen på todo items
 - Small guided meditation through Medito
   - Quick intro to benefits from meditating
   - [https://meditofoundation.org/meditations/beginner-meditation-course](https://meditofoundation.org/meditations/beginner-meditation-course)

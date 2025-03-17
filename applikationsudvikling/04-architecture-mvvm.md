@@ -139,8 +139,6 @@ I studiegruppen diskuter følgende:
 
 
 
-
-
 ### Opgave 2 - Todo list app arkitektur
 
 Arbejd i studiegrupper!
