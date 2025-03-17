@@ -144,7 +144,7 @@ I studiegruppen diskuter følgende:
 
 Arbejd i studiegrupper!
 
-Vi er hyret ind som IT-konsulenter ved firmaet Todoist. De har promtet sig til en app som de er begyndt at sælge. De oplever desværre bare mange problemer med deres app. 
+Vi er hyret ind som IT-arkitekter ved firmaet Todoist. De har promtet sig til en app som de er begyndt at sælge. De oplever desværre bare mange problemer med deres app. 
 
 - Det er svært for dem at tilføje features. 
 - Når de skal teste deres app er det vildt besværligt, da de manuelt skal ind og genskabe de use cases der var problemer med.
@@ -152,7 +152,7 @@ Vi er hyret ind som IT-konsulenter ved firmaet Todoist. De har promtet sig til e
 
 Deres CEO (Michael) har hørt fra en af hans gamle studiekammerater på CBS at Clean Architecture er "The Shit". Studiekammeraten nævnte også noget med MV et eller andet, men det ved CEO'en ikke hvad er. 
 
-Opgaven vi har fået er at få appen til at følge Clean Architecture
+Vi skal som it-arkitekter vejlede og hjælpe vores kunde til at komme ud af den knibe de er kommet i.
 
 
 
