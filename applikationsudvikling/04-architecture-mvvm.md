@@ -27,6 +27,7 @@
 
 ## Overview
 
+- Jeg har lavet spørgsmål til eksamen
 - Benjamin viser slides og går igennem
   - Clean architecture
 
