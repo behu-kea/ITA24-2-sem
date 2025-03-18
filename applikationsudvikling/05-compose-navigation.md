@@ -26,6 +26,7 @@ Måske skal jeg lave en password manager her
 ## Overview
 
 - Vise løsningen på todo items: [https://github.com/behu-kea/note-app-mvvm/tree/solution/app/src/main/java/com/example/note_app_mvvm](https://github.com/behu-kea/note-app-mvvm/tree/solution/app/src/main/java/com/example/note_app_mvvm)
+- Diskussion om forberedelse
 - Small guided meditation through Medito
   - Quick intro to benefits from meditating
   - [https://meditofoundation.org/meditations/beginner-meditation-course](https://meditofoundation.org/meditations/beginner-meditation-course)
@@ -45,8 +46,30 @@ Måske skal jeg lave en password manager her
 
 
 
+## Navigation
 
-## `Navhost`
+### Installation
+
+Add this to your `build.gradle.kts` file under `dependencies`
+
+```kotlin
+val nav_version = "2.8.9"
+implementation("androidx.navigation:navigation-compose:$nav_version")
+```
+
+
+
+### 2 parts
+
+Navigation consists of 3 parts: 
+
+1. `navhost` - Where the navigation will be displayed
+2. `navController` - controls the navigation. Fx when goin from one page to another
+3. `composable` - shows the different composable that can be navigated to
+
+
+
+### `Navhost`
 
 An empty container that displays the composables that are navigated to. Kind of like `index.html` shows different routes in react.
 
@@ -56,15 +79,31 @@ As you navigate between composables, the content of the `NavHost` is automatical
 
 
 
-## `NavController`
+### `NavController`
 
 An object that manages app navigation within a `NavHost`. The `NavController` orchestrates the swapping of destination content in the `NavHost` as users move throughout your app.
 
 
 
-### Arguments
+### BackStack
 
-Sending arguments to another route is a bit tricky. Here is how it works:
+[https://developer.android.com/guide/navigation/backstack](https://developer.android.com/guide/navigation/backstack)
+
+The back stack consists of a stack of navigation screens. Every time you navigate to a new screen, the with fx `navController.navigate("screen1")` the stack new screen is added to the back stack. When the back button is pressed, the latest screen on the backstack is removed (or [poped](https://www.youtube.com/watch?v=o724TbnN4Mk) to be more precise)
+
+
+
+### `popBackStack`
+
+We can pop the back stack ourselves by calling `navController.popBackStack()`. This will be like pressing the back button
+
+We can also pop back to a specific route `navController.popBackStack("screen1", false)`. Everything above that route will pop. The second argument specifies if the route itself should also be poped. 
+
+
+
+### Sending data from on screen to another
+
+Sending data (arguments) to another route is a bit tricky. Here is how it works:
 
 
 
@@ -105,22 +144,6 @@ navController.navigate("sendArgumentsHere/Benjamin");
 ```
 
 Here we send the string `"Benjamin"` to the `SendArgumentsHere` composable function
-
-
-
-### BackStack
-
-[https://developer.android.com/guide/navigation/backstack](https://developer.android.com/guide/navigation/backstack)
-
-The back stack consists of a stack of navigation screens. Every time you navigate to a new screen, the with fx `navController.navigate("screen1")` the stack new screen is added to the back stack. When the back button is pressed, the latest screen on the backstack is removed (or [poped](https://www.youtube.com/watch?v=o724TbnN4Mk) to be more precise)
-
-
-
-### `popBackStack`
-
-We can pop the back stack ourselves by calling `navController.popBackStack()`. This will be like pressing the back button
-
-We can also pop back to a specific route `navController.popBackStack("screen1", false)`. Everything above that route will pop. The second argument specifies if the route itself should also be poped. 
 
 
 
@@ -282,11 +305,9 @@ fun SendArgumentsHere(name: String) {
 
 
 
-## 📝 Learning with ChatGPT - 20 min
+## 📝 Discuss preparation in class - 10 min
 
-Individually spend 30 minutes with ChatGPT to learn this topic as well as you can in 20 minutes. Maybe that is just an overview, maybe that's creating code.
-
-After the 20 minutes lets share some of the prompts and approaches to learning we took
+How is navigation done in Compose UI?
 
 
 
