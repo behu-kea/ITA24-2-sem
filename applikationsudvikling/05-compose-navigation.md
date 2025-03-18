@@ -1,14 +1,12 @@
 # Navigation
 
-Måske skal jeg lave en password manager her
-
 
 
 <!--
 
 ## After class considerations
 
-- Ellers meditation gik godt
+- 
 
 -->
 
