@@ -183,7 +183,7 @@ class MainActivity : ComponentActivity() {
                     composable("home-screen") {
                         HomeScreen("benjamin",
                             onScreen2ButtonClick = {
-                                navController.navigate("screen2")
+                                navController.navigate("screen-2")
                             })
                     }
                     composable("screen-2") {
