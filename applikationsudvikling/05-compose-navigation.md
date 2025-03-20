@@ -372,3 +372,4 @@ Clicking a meditation will take you to the meditation composable.
 Clicking play will take you to the player
 
 ![Screenshot_20240122-133137](assets/Screenshot_20240122-133137-6107403.png)
+

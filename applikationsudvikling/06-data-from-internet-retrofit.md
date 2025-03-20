@@ -23,7 +23,8 @@
 
 ## Overview
 
-- Quickly go through infra slides
+- Typer er vigtige: [2038 Will Be the End of Time (In the Unix 32-Bit Timecode)](https://www.youtube.com/watch?v=zZwzrlLc_oc)
+- Go through slides
 - Opgaver
 
 
@@ -208,6 +209,8 @@ Reference: [https://github.com/nicklasdean/catfacts-app](https://github.com/nick
 
 ## Opgaver
 
+Arbejd i studiegrupper i opgave 1 og 2. Gen AI opgaven er individuel
+
 
 
 ### Opgave 1 - level 1
@@ -227,11 +230,9 @@ Create two `Mobile` and two `RaspberryPi` objects
 
 
 
-
-
 ### Opgaver 2 - Få trænet dine Retrofit skills 🏋️‍♀️
 
-Reference project: https://github.com/nicklasdean/retrofit-basic
+Reference project: [https://github.com/nicklasdean/retrofit-basic](https://github.com/nicklasdean/retrofit-basic)
 
 Vi starter med nogle opgaver der skal træne jeres Retro færdigheder og få sendt nogle requests afsted. vi skal arbejde med det her api: [https://reqres.in/](https://reqres.in/)
 
@@ -266,6 +267,7 @@ Slet en bruger
 
 ### Opgave 3 - GenAI app
 
-I skal nu bruge et api til at lave en Generativ AI app ligesom vi gjorde sidste semester. [Her er linket](https://behu.gitbook.io/ita-24-1-semester/web-technology/17-lets-build-a-generative-ai-tool#getting-started) til apidelen. 
+Brug gerne ChatGPT til at hjælpe jer med at konstruere jeres objekter
 
+I skal nu bruge et api til at lave en Generativ AI app ligesom vi gjorde sidste semester. [Her er linket](https://behu.gitbook.io/ita-24-1-semester/web-technology/17-lets-build-a-generative-ai-tool#getting-started) til apidelen. 
 
