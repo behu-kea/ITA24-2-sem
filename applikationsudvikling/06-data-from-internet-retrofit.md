@@ -209,6 +209,8 @@ Reference: [https://github.com/nicklasdean/catfacts-app](https://github.com/nick
 
 ### Install retrofit2
 
+Add this to the module gradle file under dependencies
+
 ```
 // Retrofit
 implementation("com.squareup.retrofit2:retrofit:2.9.0")
