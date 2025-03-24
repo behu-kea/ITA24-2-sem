@@ -207,6 +207,17 @@ Reference: [https://github.com/nicklasdean/catfacts-app](https://github.com/nick
 
 
 
+### Install retrofit2
+
+```
+// Retrofit
+implementation("com.squareup.retrofit2:retrofit:2.9.0")
+// Retrofit with Scalar Converter
+implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+```
+
+
+
 ## Opgaver
 
 Arbejd i studiegrupper i opgave 1 og 2. Gen AI opgaven er individuel
