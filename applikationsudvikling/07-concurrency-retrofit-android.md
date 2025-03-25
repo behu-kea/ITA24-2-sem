@@ -230,11 +230,11 @@ fun ProcrastinationScreenPreview() {
 2. Lav en timer der venter 5 sekunder før den viser konfetti. Funktionaliteten skal laves inde i `ConfettiViewModel.kt`
    1. Gør det først via blocking behavior. Altså hvor UI ikke kan bruges imens vi venter 
    2. Derefter vent i 5 sekunder vha coroutines. 
-3. Gør sådan at en bruger kan skrive hvor lang tid der skal ventes før Konfetti skal vises. Når brugeren klikker på en knap skal der gå den tid brugeren har sagt der skal ventes før konfettien kommer
+3. Gør sådan at en bruger kan skrive hvor lang tid der skal ventes før Konfetti skal vises efter der bliver trykket på knappen
 
 
 
-[Her er starterkoden](https://github.com/behu-kea/konfetti-android) til at få konfetti når man klikker på en knap. Hvad er forskellen mellem blocking og ikke blocking?
+[Her er starterkoden](https://github.com/behu-kea/konfetti-android) til opgaven
 
 
 
