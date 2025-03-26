@@ -53,7 +53,7 @@ I skal arbejde på jeres Min Strøm App idag
 
 ### Opgave 1
 
-Alle gruppemedlemmer skal sammen lave en god og flot `README.md` fil til jeres projekt. Lav det ved en computer. Den `README.md` fil skal tilføjes i en ny branch. Lav derefter en Pull request og godkend den. Alle gruppemedlemmer skal nu pull `main` og se at de har `README.md` filen lokalt.
+Alle gruppemedlemmer skal sammen lave en god og flot `README.md` fil til jeres projekt. Lav det ved én computer. Den `README.md` fil skal tilføjes i en ny branch. Lav derefter en Pull request og godkend den. Alle gruppemedlemmer skal nu pull `main` og se at de har `README.md` filen lokalt.
 
 
 
@@ -67,4 +67,6 @@ Den pull request skal godkendes af nogle andre fra gruppen end jer selv. Efter b
 
 ### Opgave 3
 
-Resten af tiden kan i bruge på at udvikle på jeres projekt
+Vi kan også køre lidt recap. Det er op til jer
+
+Resten af tiden kan i bruge på at udvikle på jeres projekt. 

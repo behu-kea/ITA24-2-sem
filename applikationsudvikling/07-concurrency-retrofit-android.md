@@ -67,7 +67,7 @@ Coroutines are managed in different scopes. The scopes manage the coroutines. Fx
 - `viewModelScope` - Best for Running coroutines in a `ViewModel`. The coroutine gets automatically cancelled when the viewModel is cleared
 - `lifecycleScope` - Running coroutines in `Activity` or `Fragment`. Automatically cancels coroutines when the activity and fragment is destroyed
 - `coroutineScope` - Best for custom coroutine scopes that you manage yourself.  Use when you need a custom scope for non-UI related tasks
-- `globalScope` - This scope should generally be avoided. But is for long-running background work. Coroutine does not get cancelled
+- `GlobalScope` - This scope should generally be avoided. But is for long-running background work. Coroutine does not get cancelled
 
 
 
