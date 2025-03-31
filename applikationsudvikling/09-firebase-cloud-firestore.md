@@ -4,13 +4,12 @@
 
 ## Overview
 
-- Hvem har forberedt sig til idag?
 - [https://www.youtube.com/ariathome](https://www.youtube.com/ariathome)
 - Viewmodel statehoisting recap
   - Start med `forEach`
 - Intro til Cloud Firestore
   - Create a new database with a collection and a document
-- Intro til OR
+- ORM
   - ![Decoding ORM: A Deep Dive into Object-Relational Mapping - DEV Community](assets/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhh18qd6898k7ak3fmvan-20250327132344721.jpg)
 
 - Benjamin laver en app der kan gemme data
