@@ -21,6 +21,17 @@
 
 
 
+<!--
+
+## After class consideration
+
+- Idag var alt for svær. Opgaven med konsulenten var for tricky.
+- De skulle bare have fået success med firebase og firestore til at begynde med
+
+-->
+
+
+
 ## Create your Firestore in Firebase
 
 go to [https://console.firebase.google.com/?pli=1](https://console.firebase.google.com/?pli=1) -> add project, give it a name -> Add analytics if necessary -> click create
