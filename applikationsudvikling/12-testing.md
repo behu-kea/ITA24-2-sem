@@ -4,19 +4,31 @@
 
 ## Overview
 
-- MVP aflevering på søndag
-  
-- Learning from Shape visit
-  
-- Mandag grimmeste app (Chindoku design filosofi)
-  
-- Talk about testing
-  - Unit tests
-  - Ui tests
+- Min Strøm aflevering på søndag
+- Præsentation på torsdag
 
-- Lav nogle UI tests for notes appen
-- Lav nogle UI tests for jeres MVP
-- Jeg giver feedforward på jeres MVP
+### Eksamen
+
+Minimum for at bestå:
+
+- Klasser og objekter
+- Big O & Datastrukturer
+- Lambda funktioner, trailing lambda
+- Composables
+- Recomposition & state
+- Git 
+
+
+
+### Næste niveau
+
+- Navigation
+- Algoritmer
+- 
+
+
+
+https://katalog.kea.dk/course/4111201/2024-2025
 
 
 
@@ -125,7 +137,7 @@ you could say that `rule` is kind of like `document` in javascript. With the `do
 
 To create a test write the `@Test` annotation before a function. This function will now be part of your tests. 
 
-First we have to specify what content we are testing. We can test the full application, but we can alos just test a `@Composable`. 
+First we have to specify what content we are testing. We can test the full application, but we can also just test a `@Composable`. 
 
 ```kotlin
 rule.setContent { AppNavigation(notesViewModel); }
@@ -225,6 +237,9 @@ fun addNote() {
 
     rule.onNodeWithText("Save note")
         .performClick()
+  	
+  	// Wait until compose is done changing screen
+  	rule.waitForIdle()
 
     rule.onNodeWithText("olol")
         .assertExists()
@@ -239,7 +254,47 @@ Read more about UI testing in compose here: [https://developer.android.com/jetpa
 
 ## Exercises
 
+I skal lave nogle tests på en app i har lavet i kurset. Det oplagte ville være Min Strøm appen. 
 
+Hvis i ikke er kommet så langt med Min Strøm, kan i bruge Note appen i har lavet.  
+
+Ellers kan i finde Note appen med alle features [her](https://github.com/behu-kea/ita-23-2-sem-code/tree/for-testing-lecture/noteapp). I skal lige have firebase tilkoblet. Det kan i læse om under firebase gangen.
+
+
+
+### Manual Exploratory Testing
+
+I skal finde bugs og fejl i jeres applikation igennem manuel eksplorativ testing, ligesom Stefanos fra Framna snakkede om
+
+- Test every feature you just developed thoroughly
+
+- Think out-of-the box and test edge cases
+  - What if the network is slow
+  - What if the request fails
+  - What if the result is empty
+  - What if the app is paused and opened again
+  - What if the app is killed and opened again
+  - What if you get logged out (401)
+
+
+
+### Unit tests
+
+Lav nogle Unit tests for den app i har valgt.
+
+
+
+### UI tests
+
+Lav nogle UI tests for den app i har valgt.
+
+
+
+### Fortsæt Min Strøm appen
+
+
+
+<!--
 
 ## Notes app
 
@@ -258,15 +313,7 @@ You have to write some ui tests that test the following:
 
 
 
-## UI tests for jeres tværfaglige projekt
-
-Lav nogle UI tests for jeres app, der tester de vigtigste dele af jeres app
-
-
-
-## Fastforward til jeres MVP
-
-Jeg kommer til at sidde klar til at give jer feedback på jeres MVP
+-->
 
 
 
@@ -302,3 +349,4 @@ class UiTester {
 ```
 
 -->
+
