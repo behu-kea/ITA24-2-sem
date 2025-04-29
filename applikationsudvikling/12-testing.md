@@ -7,6 +7,8 @@
 - Min Strøm aflevering på søndag
 - Præsentation på torsdag
 
+
+
 ### Eksamen
 
 Minimum for at bestå:
@@ -38,6 +40,8 @@ https://katalog.kea.dk/course/4111201/2024-2025
 - [Writing Our First Unit Tests - Testing on Android - Part 3](https://youtu.be/W0ag98EDhGc?si=3lCv9r2_EFXq3tAL)
 
 
+
+Testing er en del af kvalitetssikringen af jeres app.
 
 Three types of tests:
 
