@@ -342,6 +342,8 @@ class UiTester {
         rule.onNodeWithText("Save note")
             .performClick()
 
+				rule.waitForIdle()
+
         rule.onAllNodesWithText("olol")
             .get(0).assertExists()
     }
